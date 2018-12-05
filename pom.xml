@@ -14,5 +14,58 @@
         <module>mobileapp</module>
     </modules>
 
+    <properties>
+        <test-automation-version>2.0.2-SNAPSHOT</test-automation-version>
+    </properties>
 
+    <repositories>
+        <repository>
+            <id>snapshots</id>
+            <name>Snapshots Repository</name>
+            <url>http://mvnrepository.bankbazaar.com/repository/snapshots/</url>
+        </repository>
+        <repository>
+            <id>internal</id>
+            <name>Internal Repository</name>
+            <url>http://mvnrepository.bankbazaar.com/repository/internal/</url>
+        </repository>
+        <repository>
+            <id>mvn-public</id>
+            <name>MVNRepository</name>
+            <url>http://mvnrepository.com</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.bankbazaar.testautomation</groupId>
+            <artifactId>ta-core</artifactId>
+            <version>${test-automation-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.bankbazaar.testautomation</groupId>
+            <artifactId>ta-services</artifactId>
+            <version>${test-automation-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.bankbazaar.testautomation</groupId>
+            <artifactId>ta-web</artifactId>
+            <version>${test-automation-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.bankbazaar.testautomation</groupId>
+            <artifactId>ta-tests</artifactId>
+            <version>${test-automation-version}</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.19.1</version>
+            </plugin>
+        </plugins>
+    </build>
 </project>

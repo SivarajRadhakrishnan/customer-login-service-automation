@@ -1,0 +1,21 @@
+<values>
+    <value id="DefaultRoleIds" defaultvalue="2,6" asstring="true"/>
+    <value id="CustomerType" defaultvalue="BANKBAZAAR" asstring="true"/>
+    <value id="CustomerEnabled" defaultvalue="true" asstring="true"/>
+    <value id="ThirdPartyCustomerId" defaultvalue="null" asstring="true"/>
+    <value id="SetMobileVerified" defaultvalue="false" asstring="true"/>
+    <value id="AndroidAppVersionNew" defaultvalue="150" asstring="true"/>
+    <value id="AndroidAppVersionOld" defaultvalue="140" asstring="true"/>
+    <value id="IOSAppVersionNew" defaultvalue="30" asstring="true"/>
+    <value id="IOSAppVersionOld" defaultvalue="20" asstring="true"/>
+
+    <value id="FirstName" defaultvalue="random" type="alphabets" length="15" asstring="true"/>
+    <value id="LastName" defaultvalue="random" type="alphabets" length="15" asstring="true"/>
+    <value id="Password" defaultvalue="test123!" asstring="true"/>
+    <value id="EmailId" defaultvalue="random" type="email" length="15" asstring="true" prefix="wlemail_service_"/>
+    <value id="MobileNumber" defaultvalue="random" type="fromvalueset" valueset="8754450654,9790953997,8939860970" asstring="true"/>
+    <value id="Gender" defaultvalue="random" type="fromvalueset" valueset="Male,Female" asstring="true"/>
+    <value id="DeviceId" defaultvalue="random" type="UUID" asstring="true"/>
+    <value id="DeviceUserName_Suffix" defaultvalue="random" type="numeric" length="15" asstring="true"/>
+    <value id="CustomerContactDetailSource_Random" defaultvalue="random" type="fromvalueset" valueset="APPLICATION_FORM,ELIGIBILITY_CONTACT_SLIDE,EXIT_BL_OFFER,STAY_CONNECTED,OFFER_NON_PARTNER,OFFER_PAGE_INVEST_NOW" asstring="true"/>
+</values>

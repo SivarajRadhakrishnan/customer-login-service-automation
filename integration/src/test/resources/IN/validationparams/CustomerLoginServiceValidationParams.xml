@@ -1,0 +1,196 @@
+<validationparams>
+    <validationparamgroup id="V1_SaveCustomer_ValidationParams" >
+        <param id="CustomerId" xpathid="V1_Customer_Id_Exists" value="true" />
+        <param id="FirstName" xpathid="V1_Customer_FirstName" valueid="FirstName" />
+        <param id="LastName" xpathid="V1_Customer_LastName" valueid="LastName" />
+        <param id="EmailId" xpathid="V1_Customer_EmailId" valueid="EmailId" />
+        <param id="UserName" xpathid="V1_Customer_UserName" valueid="EmailId" />
+        <param id="CustomerEnabled" xpathid="V1_Customer_Enabled" valueid="CustomerEnabled" />
+        <param id="CustomerType" xpathid="V1_Customer_CustomerType" valueid="CustomerType" />
+        <param id="CustomerDetailsId" xpathid="V1_Customer_Details_Id_Exists" value="true" />
+        <param id="ThirdPartyCustomerId" xpathid="V1_Customer_ThirdPartyCustomerId" valueid="ThirdPartyCustomerId" />
+        <param id="RolesCount" xpathid="V1_Customer_Roles_Count" valueid="Roles" />
+    </validationparamgroup>
+
+    <validationparamgroup id="V1_Customer_ValidationParams" >
+        <param id="CustomerId" xpathid="V1_Customer_Id" valueid="CustomerId" />
+        <param id="FirstName" xpathid="V1_Customer_FirstName" valueid="FirstName" />
+        <param id="LastName" xpathid="V1_Customer_LastName" valueid="LastName" />
+        <param id="EmailId" xpathid="V1_Customer_EmailId" valueid="EmailId" />
+        <param id="UserName" xpathid="V1_Customer_UserName" valueid="UserName" />
+        <param id="CustomerEnabled" xpathid="V1_Customer_Enabled" valueid="CustomerEnabled" />
+        <param id="CustomerType" xpathid="V1_Customer_CustomerType" valueid="CustomerType" />
+        <param id="CustomerDetailsId" xpathid="V1_Customer_DetailsId" valueid="CustomerDetailsId" />
+        <!--<param id="CreatedOn" xpathid="V1_Customer_CreatedOn" valueid="CreatedOn" />-->
+        <param id="ThirdPartyCustomerId" xpathid="V1_Customer_ThirdPartyCustomerId" valueid="ThirdPartyCustomerId" />
+        <param id="RolesCount" xpathid="V1_Customer_Roles_Count" valueid="Roles" />
+    </validationparamgroup>
+
+    <validationparamgroup id="V1_Customer_Roles_ValidationParams" >
+        <param id="RoleName" xpathid="V1_Customer_Roles_RoleName" xpathPlaceholderIds="RoleId" valueid="RoleName" />
+    </validationparamgroup>
+
+    <validationparamgroup id="V1_CustomerList_ValidationParams" >
+        <param id="FirstName" xpathid="V1_Customer_List_FirstName" xpathPlaceholderIds="CustomerId" valueid="FirstName" />
+        <param id="LastName" xpathid="V1_Customer_List_LastName" xpathPlaceholderIds="CustomerId" valueid="LastName" />
+        <param id="EmailId" xpathid="V1_Customer_List_EmailId" xpathPlaceholderIds="CustomerId" valueid="EmailId" />
+        <param id="UserName" xpathid="V1_Customer_List_UserName" xpathPlaceholderIds="CustomerId" valueid="UserName" />
+        <param id="CustomerEnabled" xpathid="V1_Customer_List_Enabled" xpathPlaceholderIds="CustomerId" valueid="CustomerEnabled" />
+        <param id="CustomerType" xpathid="V1_Customer_List_CustomerType" xpathPlaceholderIds="CustomerId" valueid="CustomerType" />
+        <param id="CustomerDetailsId" xpathid="V1_Customer_List_DetailsId" xpathPlaceholderIds="CustomerId" valueid="CustomerDetailsId" />
+        <param id="CreatedOn" xpathid="V1_Customer_List_CreatedOn" xpathPlaceholderIds="CustomerId" valueid="CreatedOn" />
+        <param id="ThirdPartyCustomerId" xpathid="V1_Customer_List_ThirdPartyCustomerId" xpathPlaceholderIds="CustomerId" valueid="ThirdPartyCustomerId" />
+        <param id="RolesCount" xpathid="V1_Customer_List_Roles_Count" xpathPlaceholderIds="CustomerId" valueid="Roles" />
+    </validationparamgroup>
+
+    <validationparamgroup id="V1_CustomerList_Roles_ValidationParams" >
+        <param id="RoleName" xpathid="V1_Customer_List_Roles_RoleName" xpathPlaceholderIds="CustomerId,RoleId" valueid="RoleName" />
+    </validationparamgroup>
+
+    <validationparamgroup id="V2_LoggedInCustomer_PersonalInfo_ValidationParams" >
+        <param id="FirstName" xpathid="V2_LoggedInCustomer_PersonalInfo_FirstName" valueid="FirstName" />
+        <param id="MiddleName" xpathid="V2_LoggedInCustomer_PersonalInfo_MiddleName" valueid="MiddleName" />
+        <param id="LastName" xpathid="V2_LoggedInCustomer_PersonalInfo_LastName" valueid="LastName" />
+        <param id="Gender" xpathid="V2_LoggedInCustomer_PersonalInfo_Gender" valueid="Gender" />
+        <param id="Dob" xpathid="V2_LoggedInCustomer_PersonalInfo_Dob" valueid="Dob" />
+        <param id="MaritalStatus" xpathid="V2_LoggedInCustomer_PersonalInfo_MaritalStatus" valueid="MaritalStatus" />
+        <param id="ResidencyStatus" xpathid="V2_LoggedInCustomer_PersonalInfo_ResidencyStatus" valueid="ResidencyStatus" />
+        <param id="Pan" xpathid="V2_LoggedInCustomer_PersonalInfo_Pan" valueid="Pan" />
+        <param id="CurrAddr_Line1" xpathid="V2_LoggedInCustomer_PersonalInfo_CurrAddrLine1" valueid="CurrAddr_Line1" />
+        <param id="CurrAddr_Line2" xpathid="V2_LoggedInCustomer_PersonalInfo_CurrAddrLine2" valueid="CurrAddr_Line2" />
+        <param id="CurrAddr_City" xpathid="V2_LoggedInCustomer_PersonalInfo_CurrAddrCity" valueid="CurrAddr_City" />
+        <param id="CurrAddr_Pincode" xpathid="V2_LoggedInCustomer_PersonalInfo_CurrAddrPincode" valueid="CurrAddr_Pincode" />
+        <param id="CurrAddr_ResType" xpathid="V2_LoggedInCustomer_PersonalInfo_CurrAddrResType" valueid="CurrAddr_ResType" />
+        <param id="PermAddr_Line1" xpathid="V2_LoggedInCustomer_PersonalInfo_PermAddrLine1" valueid="PermAddr_Line1" />
+        <param id="PermAddr_Line2" xpathid="V2_LoggedInCustomer_PersonalInfo_PermAddrLine2" valueid="PermAddr_Line2" />
+        <param id="PermAddr_City" xpathid="V2_LoggedInCustomer_PersonalInfo_PermAddrCity" valueid="PermAddr_City" />
+        <param id="PermAddr_Pincode" xpathid="V2_LoggedInCustomer_PersonalInfo_PermAddrPincode" valueid="PermAddr_Pincode" />
+        <param id="Mobile" xpathid="V2_LoggedInCustomer_PersonalInfo_Mobile" valueid="Mobile" />
+        <param id="Email" xpathid="V2_LoggedInCustomer_PersonalInfo_Email" valueid="Email" />
+        <param id="BankName" xpathid="V2_LoggedInCustomer_PersonalInfo_Bank_Name" valueid="BankName" />
+        <param id="BankCity" xpathid="V2_LoggedInCustomer_PersonalInfo_Bank_City" valueid="BankCity" />
+        <param id="AccType" xpathid="V2_LoggedInCustomer_PersonalInfo_Bank_AccType" valueid="AccType" />
+        <param id="AccNum" xpathid="V2_LoggedInCustomer_PersonalInfo_Bank_AccNum" valueid="AccNum" />
+        <param id="IFSCCode" xpathid="V2_LoggedInCustomer_PersonalInfo_Bank_IFSCCode" valueid="IFSC_Code" />
+    </validationparamgroup>
+
+    <validationparamgroup id="V2_LoggedInCustomer_AccountInfo_ValidationParams" >
+        <param id="CustomerId" xpathid="V2_LoggedInCustomer_AccountInfo_CustomerId" valueid="CustomerId" />
+        <param id="UserName" xpathid="V2_LoggedInCustomer_AccountInfo_UserName" valueid="UserName" />
+        <param id="Password" xpathid="V2_LoggedInCustomer_AccountInfo_Password" valueid="Password_Encrypted" />
+        <param id="AccEnabled" xpathid="V2_LoggedInCustomer_AccountInfo_AccEnabled" valueid="AccEnabled" />
+        <param id="LoginType" xpathid="V2_LoggedInCustomer_AccountInfo_LoginType" valueid="LoginType" />
+    </validationparamgroup>
+
+    <validationparamgroup id="V2_LoggedInCustomer_EmploymentInfo_ValidationParams" >
+        <param id="EmpType" xpathid="V2_LoggedInCustomer_EmploymentInfo_EmpType" valueid="EmpType" />
+        <param id="Employer" xpathid="V2_LoggedInCustomer_EmploymentInfo_Employer" valueid="Employer" />
+        <param id="DOJ" xpathid="V2_LoggedInCustomer_EmploymentInfo_DOJ" valueid="DOJ" />
+        <param id="WorkingSince" xpathid="V2_LoggedInCustomer_EmploymentInfo_WorkingSince" valueid="WorkingSince" />
+        <param id="Designation" xpathid="V2_LoggedInCustomer_EmploymentInfo_Designation" valueid="Designation" />
+        <param id="NetMonthlyIncome" xpathid="V2_LoggedInCustomer_EmploymentInfo_NetMonthlyIncome" valueid="NetMonthlyIncome" />
+    </validationparamgroup>
+
+    <validationparamgroup id="V2_LoggedInCustomer_SocialProfileInfo_ValidationParams" >
+        <param id="EmpType" xpathid="V2_LoggedInCustomer_SocialProfileInfo_AccKey" valueid="SocialAcc_Key" />
+        <param id="UserName" xpathid="V2_LoggedInCustomer_SocialProfileInfo_UserName" valueid="SocialAcc_UserName" />
+        <param id="TokenType" xpathid="V2_LoggedInCustomer_SocialProfileInfo_TokenType" valueid="SocialAcc_TokenType" />
+        <param id="LoginType" xpathid="V2_LoggedInCustomer_SocialProfileInfo_LoginType" valueid="LoginType" />
+        <param id="ProfilePicUrl" xpathid="V2_LoggedInCustomer_SocialProfileInfo_ProfilePicUrl_NotEmpty" value="true" />
+        <param id="AccessToken_NotEmpty" xpathid="V2_LoggedInCustomer_SocialProfileInfo_AccessToken_NotEmpty" value="true" />
+        <param id="RefreshToken_NotEmpty" xpathid="V2_LoggedInCustomer_SocialProfileInfo_RefreshToken_NotEmpty" value="true" >
+            <param-validation-rules>
+                <param-validation-rule variable="LoginType" value="GOOGLE" condition="EQUALS" />
+            </param-validation-rules>
+        </param>
+        <param id="RefreshToken_NotEmpty" xpathid="V2_LoggedInCustomer_SocialProfileInfo_RefreshToken_Exists" value="false" >
+            <param-validation-rules>
+                <param-validation-rule variable="LoginType" value="FACEBOOK" condition="EQUALS" />
+            </param-validation-rules>
+        </param>
+    </validationparamgroup>
+
+    <validationparamgroup id="V2_LoggedInCustomer_Device_ValidationParams" >
+        <param id="DeviceId" xpathid="V2_LoggedInCustomer_Devices_DeviceId_Exists" xpathPlaceholderIds="DeviceId" value="true" />
+        <param id="Id" xpathid="V2_LoggedInCustomer_Devices_Id_Exists" xpathPlaceholderIds="DeviceId" value="true" />
+        <param id="ApiKey" xpathid="V2_LoggedInCustomer_Devices_ApiKey_Exists" xpathPlaceholderIds="DeviceId" value="true" />
+    </validationparamgroup>
+
+    <validationparamgroup id="SignIn_Response_ValidationParams" >
+        <param id="ReturningUser" xpathid="V2_SignInResp_ReturningUser" value="false" >
+            <param-validation-rules>
+                <param-validation-rule variable="LoginType" value="GOOGLE,FACEBOOK" condition="NOT_IN_VALUESET" />
+            </param-validation-rules>
+        </param>
+        <param id="ReturningUser" xpathid="V2_SignInResp_ReturningUser" value="true" >
+            <param-validation-rules>
+                <param-validation-rule variable="LoginType" value="GOOGLE,FACEBOOK" condition="IN_VALUESET" />
+            </param-validation-rules>
+        </param>
+        <param id="Status" xpathid="V2_SignInResp_Status" value="SUCCESS" />
+    </validationparamgroup>
+
+    <validationparamgroup id="SignUp_Response_ValidationParams" >
+        <param id="Status" xpathid="V2_SignInResp_Status" value="SUCCESS" />
+        <param id="ReturningUser" xpathid="V2_SignInResp_ReturningUser" value="false" />
+        <param id="CustomerId_NotEmpty" xpathid="V2_LoggedInCustomer_AccountInfo_CustomerId_NotEmpty" value="true" />
+        <param id="UserName" xpathid="V2_LoggedInCustomer_AccountInfo_UserName" valueid="UserName" />
+        <param id="Password_NotEmpty" xpathid="V2_LoggedInCustomer_AccountInfo_Password_NotEmpty" value="true" />
+        <param id="LoginType" xpathid="V2_LoggedInCustomer_AccountInfo_LoginType" valueid="LoginType" />
+        <param id="AccountEnabled" xpathid="V2_LoggedInCustomer_AccountInfo_AccEnabled" value="true" />
+        <param id="FirstName" xpathid="V2_LoggedInCustomer_PersonalInfo_FirstName" valueid="FirstName" >
+            <param-validation-rules>
+                <param-validation-rule variable="LoginType" value="MOBILE_APP" condition="NOT_EQUALS" />
+            </param-validation-rules>
+        </param>
+        <param id="LastName" xpathid="V2_LoggedInCustomer_PersonalInfo_LastName" valueid="LastName" >
+            <param-validation-rules>
+                <param-validation-rule variable="LoginType" value="MOBILE_APP" condition="NOT_EQUALS" />
+            </param-validation-rules>
+        </param>
+        <param id="EmailId" xpathid="V2_LoggedInCustomer_PersonalInfo_Email" valueid="EmailId" >
+            <param-validation-rules>
+                <param-validation-rule variable="LoginType" value="BB_NATIVE_MOBILE,MOBILE_APP" condition="NOT_IN_VALUESET" />
+            </param-validation-rules>
+        </param>
+        <param id="Mobile" xpathid="V2_LoggedInCustomer_PersonalInfo_Mobile" valueid="UserName" >
+            <param-validation-rules>
+                <param-validation-rule variable="LoginType" value="BB_NATIVE_MOBILE" condition="EQUALS" />
+            </param-validation-rules>
+        </param>
+    </validationparamgroup>
+
+    <validationparamgroup id="V2_Customer_ValidationParams" >
+        <param id="CustomerId" xpathid="V2_Customer_AccountInfo_CustomerId" valueid="CustomerId" />
+        <param id="UserName" xpathid="V2_Customer_AccountInfo_UserName" valueid="UserName" />
+        <param id="Password" xpathid="V2_Customer_AccountInfo_Password" valueid="Password" />
+        <param id="AccEnabled" xpathid="V2_Customer_AccountInfo_AccEnabled" valueid="AccEnabled" />
+        <param id="LoginType" xpathid="V2_Customer_AccountInfo_LoginType" valueid="LoginType" />
+        <param id="FirstName" xpathid="V2_Customer_PersonalInfo_FirstName" valueid="FirstName" >
+            <param-validation-rules>
+                <param-validation-rule variable="LoginType" value="MOBILE_APP" condition="NOT_EQUALS" />
+            </param-validation-rules>
+        </param>
+        <param id="LastName" xpathid="V2_Customer_PersonalInfo_LastName" valueid="LastName">
+            <param-validation-rules>
+                <param-validation-rule variable="LoginType" value="MOBILE_APP" condition="NOT_EQUALS" />
+            </param-validation-rules>
+        </param>
+        <param id="EmailId" xpathid="V2_Customer_PersonalInfo_Email" valueid="EmailId" >
+            <param-validation-rules>
+                <param-validation-rule variable="LoginType" value="BB_NATIVE_MOBILE,MOBILE_APP" condition="NOT_IN_VALUESET" />
+            </param-validation-rules>
+        </param>
+        <param id="Mobile" xpathid="V2_Customer_PersonalInfo_Mobile" valueid="UserName" >
+            <param-validation-rules>
+                <param-validation-rule variable="LoginType" value="BB_NATIVE_MOBILE" condition="EQUALS" />
+            </param-validation-rules>
+        </param>
+    </validationparamgroup>
+
+    <validationparamgroup id="V2_Customer_Device_ValidationParams" >
+        <param id="DeviceId" xpathid="V2_Customer_Devices_DeviceId" xpathPlaceholderIds="DeviceId" valueid="DeviceId" />
+        <param id="DeviceDataId" xpathid="V2_Customer_Devices_Id" xpathPlaceholderIds="DeviceId" valueid="DeviceDataId" />
+        <param id="DeviceApiKey" xpathid="V2_Customer_Devices_ApiKey" xpathPlaceholderIds="DeviceId" valueid="DeviceApiKey" />
+    </validationparamgroup>
+</validationparams>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="CustomerLoginServiceRegressionSuite">
+    <listeners>
+        <listener class-name="com.bankbazaar.services.core.CustomEmailableReporter" />
+        <listener class-name="org.testng.reporters.jq.Main"/>
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+        <listener class-name="com.bankbazaar.services.core.SuiteInitializer" />
+        <listener class-name="com.bankbazaar.services.core.TestInitializer" />
+        <listener class-name="com.bankbazaar.listeners.TestListener" />
+        <listener class-name="com.bankbazaar.listeners.RetryListener" />
+    </listeners>
+    <test name="CustomerLoginServiceRegressionTest">
+        <groups>
+            <run>
+                <include name="Regression" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.bankbazaar.tatests.tests.servicestest.IN.CustomerLoginService.CustomerLoginServiceFunctionalAppTest" />
+        </classes>
+    </test>
+
+</suite>
+

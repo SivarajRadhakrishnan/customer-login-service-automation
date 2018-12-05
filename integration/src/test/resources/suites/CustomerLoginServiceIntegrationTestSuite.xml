@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="CustomerLoginServiceIntegrationTestSuite">
+    <listeners>
+        <listener class-name="com.bankbazaar.services.core.CustomEmailableReporter" />
+        <listener class-name="org.testng.reporters.jq.Main"/>
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+        <listener class-name="com.bankbazaar.services.core.SuiteInitializer" />
+        <listener class-name="com.bankbazaar.services.core.TestInitializer" />
+        <listener class-name="com.bankbazaar.listeners.TestListener" />
+        <listener class-name="com.bankbazaar.listeners.RetryListener" />
+    </listeners>
+    <test name="CustomerLoginServiceIntegrationTest">
+        <groups>
+            <run>
+                <include name="Regression" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.bankbazaar.tatests.tests.servicestest.IN.CustomerLoginService.CustomerLoginServiceMPV1APIIntegrationTest" />
+            <class name="com.bankbazaar.tatests.tests.servicestest.IN.CustomerLoginService.CustomerLoginServiceInsV1APIIntegrationTest" />
+            <class name="com.bankbazaar.tatests.tests.servicestest.IN.CustomerLoginService.CustomerLoginServiceV2SigninAPIIntegrationTest" />
+            <class name="com.bankbazaar.tatests.tests.servicestest.IN.CustomerLoginService.CustomerLoginServiceV2SignupAPIIntegrationTest" />
+        </classes>
+    </test>
+
+</suite>
+

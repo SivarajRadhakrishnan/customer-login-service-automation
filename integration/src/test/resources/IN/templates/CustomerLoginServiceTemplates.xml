@@ -1,0 +1,161 @@
+<templates>
+    <template id="CustomerTemplate" type="cdata">
+        <![CDATA[{"email":$EmailId$,"password":"c0a9e2d7883a6badb0e8b2ff8f22aab5949118e9","securityLevel":1,"mobile":$MobileNumber$,"confirmPassword":null
+        ,"firstName":$FirstName$,"lastName":$LastName$,"enabled":true,"unsuccessfulLoginAttempts":0,"credentialsExpired":false,"passwordUpdatedOn":null
+        ,"passwordReset":false,"verificationCode":null,"verificationCodeSetTime":null,"passwordHistory":[],roles:$RolesTemplate$
+        ,"applicantContact":$ApplicantContactTemplate$,"coApplicantContact":$CoApplicantContactTemplate$,"poaContact":$POAContactTemplate$
+        ,"hasApplied":null,"signupSource":null,"autoSignup":null,"customerType":"BANKBAZAAR","thirdPartyCustomerId":null,"details":$CustomerDetailsTemplate$
+        ,"apiKey":null,"mobileVerified":null,"emailId":$EmailId$,"registationIds":[],"devices":[]}]]>
+        <dependentproperties>
+            <if variable="SetMobileVerified" value="true">
+                <set-property path="mobileVerified" value="true" dataType="string"/>
+            </if>
+        </dependentproperties>
+    </template>
+    <template id="CustomerDetailsTemplate" type="cdata">
+        <![CDATA[{"photo":null,"hasPhoto":false,"details":{"photo":null,"photoURL":null,"hasPhoto":false,"customerLoginAccountMap":null
+        ,"mobileVerifCode":null,"mobileVerifAttempts":0,"mobileNotifAttempts":0,"gender":null,"mobileVerifCreatedDate":null,"mobileVerifUpdatedDate":null
+        ,"customerSavedSearchMap":null,"shortlistedOffers":null,"applicantDetail":$ApplicantDetailTemplate$,"customerBankAccount":null}}]]>
+    </template>
+    <template id="ApplicantDetailTemplate" type="cdata" >
+        <![CDATA[{"firstName":$FirstName$,"middleName":"","lastName":$LastName$,"maidenName":"","gname":"","gender":$Gender$,"title":null,"applicantRelation":""
+        ,"uniquePersonIdentifier":$ApplicantContact_UniquePersonIdentifier_Template$,"dateOfBirth":"","maritalStatus":"SINGLE","numberOfDependents":null}]]>
+    </template>
+    <template id="RolesTemplate" type="cdata" isArrayTemplate="true" fromMultiValues="true" dataSourceName="CustomerRoles">
+        <![CDATA[{"id": $RoleId$,"name": $RoleName$,"description": $RoleDescription$,"version": $RoleVersion$,"stagedVersion": $RoleStagedVersion$
+        ,"controller": null,"controlledRoles": null,"applicationEventTypes": $RolesEventTypesTemplate$}]]>
+    </template>
+    <template id="RolesEventTypesTemplate" type="cdata" isMultiValue="true">
+        <![CDATA[{$RoleEventTypes$}]]>
+    </template>
+    <template id="ApplicantContactTemplate" type="cdata">
+        <![CDATA[{"address":$ApplicantContactAddressTemplate$,"telephone":$ApplicantContact_Telephone_Template$,"primaryEmail":$ApplicantContact_PrimaryEmail_Template$
+        ,"primaryMobile":$ApplicantContact_PrimaryMobile_Template$,"SecondaryEmails":[]
+        ,"SecondaryMobiles":[],"SecondaryTelephones":[],"contactPerson":$ApplicantContact_Person_Template$
+        ,"mobile":"","secondaryMobile":"","email":"","secondaryEmail":"","mobileConsent":false}]]>
+    </template>
+    <template id="CoApplicantContactTemplate" type="cdata">
+        <![CDATA[{"address":$ApplicantContactAddressTemplate$,"telephone":$ApplicantContact_Telephone_Template$,"primaryEmail":$ApplicantContact_PrimaryEmail_Template$
+        ,"primaryMobile":$ApplicantContact_PrimaryMobile_Template$,"SecondaryEmails":[],"SecondaryMobiles":[],"SecondaryTelephones":[]
+        ,"contactPerson":$ApplicantContact_Person_Template$,"mobile":"","secondaryMobile":"","email":"","secondaryEmail":"","mobileConsent":false}]]>
+    </template>
+    <template id="POAContactTemplate" type="cdata">
+        <![CDATA[{"address":$ApplicantContactAddressTemplate$,"telephone":$ApplicantContact_Telephone_Template$,"primaryEmail":$ApplicantContact_PrimaryEmail_Template$
+        ,"primaryMobile":$ApplicantContact_PrimaryMobile_Template$,"SecondaryEmails":[],"SecondaryMobiles":[],"SecondaryTelephones":[]
+        ,"contactPerson":$ApplicantContact_Person_Template$,"mobile":"","secondaryMobile":"","email":"","secondaryEmail":"","mobileConsent":false}]]>
+    </template>
+    <template id="ApplicantContact_Address_Template" type="cdata">
+        <![CDATA[{"line0":"","line1":"","line2":"","line3":"","state":"","city":null,"country":null,"pincode":"","dateReported":null
+        ,"isPincodeValid":false,"addressVerified":false,"location":null}]]>
+    </template>
+    <template id="ApplicantContact_Telephone_Template" type="cdata">
+        <![CDATA[{"isd":"","std":"","number":"","extension":""}]]>
+    </template>
+    <template id="ApplicantContact_PrimaryEmail_Template" type="cdata">
+        <![CDATA[{"contact":"","contactEnabled":true,"retry":""}]]>
+    </template>
+    <template id="ApplicantContact_PrimaryMobile_Template" type="cdata">
+        <![CDATA[{"contact":"","contactEnabled":true,"retry":""}]]>
+    </template>
+    <template id="ApplicantContact_SecondaryEmails_Template" type="cdata">
+        <![CDATA[[{"contact":"","contactEnabled":true,"retry":""},{"contact":"","contactEnabled":true,"retry":""},{"contact":"","contactEnabled":true,"retry":""}
+        ,{"contact":"","contactEnabled":true,"retry":""},{"contact":"","contactEnabled":true,"retry":""},]]]>
+    </template>
+    <template id="ApplicantContact_SecondaryMobiles_Template" type="cdata">
+        <![CDATA[[{"contact":"","contactEnabled":true,"retry":""},{"contact":"","contactEnabled":true,"retry":""},{"contact":"","contactEnabled":true,"retry":""}
+        ,{"contact":"","contactEnabled":true,"retry":""},{"contact":"","contactEnabled":true,"retry":""},]]]>
+    </template>
+    <template id="ApplicantContact_Person_Template" type="cdata">
+        <![CDATA[{"firstName":"","middleName":"","lastName":"","maidenName":"","gname":"","gender":null,"title":null,"applicantRelation":""
+        ,"uniquePersonIdentifier":$ApplicantContact_UniquePersonIdentifier_Template$,"dateOfBirth":null,"maritalStatus":null
+        ,"numberOfDependents":null,"religion":null,"category":null,"preferredEmail":"Personal"}]]>
+    </template>
+    <template id="ApplicantContact_UniquePersonIdentifier_Template" type="cdata">
+        <![CDATA[{"pan":null,"panReferenceId":null,"aadhaar":null,"aadhaarReferenceId":null,"pfNo":null,"aegonIdentifier":null,"nric":null
+        ,"passportExpiryDate":null,"employmentPassExpiryDate":null}]]>
+    </template>
+    <template id="LoginRequest_Template" type="cdata">
+        <![CDATA[{"username":$UserName$,"password":$Password$,"loginType":$LoginType$, "otpVerified":$OTPVerified$
+        ,"authorizationCode":$OAuthCode$,"accessToken":$AccessToken$,"platform":$Platform$,"deviceId":$DeviceId$,"returnUrl":$RedirectURL$
+        ,"autoLogin":$AutoLogin$,"appVersion":$AppVersion$}]]>
+        <dependentproperties>
+            <if variable="LoginType" value="BB_NATIVE_MOBILE" condition="NOT_EQUALS">
+                <if variable="Platform" condition="EMPTY">
+                    <remove-property path="platform" />
+                    <remove-property path="deviceId" />
+                    <remove-property path="appVersion" />
+                </if>
+                <remove-property path="otpVerified" />
+            </if>
+            <if variable="LoginType" value="BB_NATIVE_MOBILE" condition="EQUALS">
+                <if variable="Platform" value="ANDROID" condition="EQUALS">
+                    <if variable="AppVersion" variable2="AndroidAppVersionNew" condition="EQUALS">
+                        <remove-property path="password" />
+                    </if>
+                </if>
+                <if variable="Platform" value="IOS" condition="EQUALS">
+                    <if variable="AppVersion" variable2="IOSAppVersionNew" condition="EQUALS">
+                        <remove-property path="password" />
+                    </if>
+                </if>
+                <if variable="Platform" condition="EMPTY">
+                    <remove-property path="platform" />
+                    <remove-property path="deviceId" />
+                    <remove-property path="appVersion" />
+                </if>
+            </if>
+            <if variable="LoginType" value="GOOGLE,FACEBOOK" condition="IN_VALUESET">
+                <if variable="AccessToken" condition="EMPTY">
+                    <remove-property path="username" />
+                </if>
+                <remove-property path="password" />
+            </if>
+            <if variable="AutoLogin" condition="EMPTY">
+                <remove-property path="autoLogin" />
+            </if>
+            <if variable="LoginType" value="GOOGLE,FACEBOOK" condition="NOT_IN_VALUESET">
+                <if variable="AccessToken" condition="EMPTY">
+                    <remove-property path="accessToken" />
+                </if>
+                <if variable="AccessToken" condition="NOT_EMPTY">
+                    <remove-property path="authorizationCode" />
+                </if>
+                <remove-property path="authorizationCode" />
+                <remove-property path="accessToken" />
+                <remove-property path="returnUrl" />
+            </if>
+        </dependentproperties>
+    </template>
+    <template id="SignUpRequest_Template" type="cdata">
+        <![CDATA[{"username":$UserName$,"password":$Password$,"loginType":$LoginType$,"customerContactDetailSource":$CustomerContactDetailSource$
+            ,"firstName":$FirstName$,"lastName":$LastName$, "otpVerified":$OTPVerified$,"platform":$Platform$,"deviceId":$DeviceId$
+            ,"appVersion":$AppVersion$,"autoSignup":$AutoSignup$}]]>
+        <dependentproperties>
+            <if variable="LoginType" value="BB_NATIVE_MOBILE" condition="NOT_EQUALS">
+                <if variable="Platform" condition="EMPTY">
+                    <remove-property path="platform" />
+                    <remove-property path="deviceId" />
+                    <remove-property path="appVersion" />
+                    <remove-property path="otpVerified" />
+                </if>
+            </if>
+            <if variable="LoginType" value="BB_NATIVE_MOBILE" condition="EQUALS">
+                <if variable="Platform" condition="EMPTY">
+                    <remove-property path="platform" />
+                    <remove-property path="deviceId" />
+                    <remove-property path="appVersion" />
+                </if>
+            </if>
+            <if variable="LoginType" value="MOBILE_APP" condition="EQUALS">
+                <remove-property path="firstName" />
+                <remove-property path="lastName" />
+            </if>
+            <if variable="AutoSignup" condition="EMPTY">
+                <remove-property path="autoSignup" />
+            </if>
+            <if variable="CustomerContactDetailSource" condition="EMPTY">
+                <remove-property path="customerContactDetailSource" />
+            </if>
+        </dependentproperties>
+    </template>
+</templates>
