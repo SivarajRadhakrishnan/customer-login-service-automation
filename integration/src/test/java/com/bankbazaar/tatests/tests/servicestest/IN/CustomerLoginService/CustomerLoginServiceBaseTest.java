@@ -1,6 +1,7 @@
 package com.bankbazaar.tatests.tests.servicestest.IN.CustomerLoginService;
 
 import com.bankbazaar.DataUtil.StringUtil;
+import com.bankbazaar.FileUtil.FileManager;
 import com.bankbazaar.core.BaseContext;
 import com.bankbazaar.core.XMLProcessor;
 import com.bankbazaar.loggers.LogManager;
@@ -10,6 +11,8 @@ import com.bankbazaar.model.WebServiceResponse;
 import com.bankbazaar.tatests.constants.CustomerLoginServiceConstants;
 import com.bankbazaar.tatests.services.Services;
 import com.bankbazaar.tatests.tests.servicestest.ServicesDataDrivenBaseTest;
+import com.bankbazaar.tatests.tests.servicestest.ServicesPipelineBaseTest;
+import com.bankbazaar.tatests.tests.servicestest.ServicesPipelineDataDrivenBaseTest;
 import com.bankbazaar.tatests.workflows.WorkFlows;
 import com.bankbazaar.util.EnvironmentUtil;
 import com.bankbazaar.util.Util;
@@ -29,43 +32,27 @@ import java.util.Map;
 /**
  * Created by sivaraj on 10/9/18.
  */
-public class CustomerLoginServiceBaseTest extends ServicesDataDrivenBaseTest {
+public class CustomerLoginServiceBaseTest extends ServicesPipelineDataDrivenBaseTest {
 
-    @Parameters({"env","locale"})
-    @BeforeSuite(alwaysRun = true)
-    public void intiSuite(String envName, String locale) {
-        LogManager.logInfo("-------------------------------");
-        LogManager.logInfo("Environment Name : " + envName);
-        LogManager.logInfo("Environment Locale : " + locale);
-        LogManager.logInfo("-------------------------------");
-
-        ExecutionLocale executionLocale = ExecutionLocale.valueOf(locale);
-        if(executionLocale == null)
-        {
-            Assert.fail("Invalid Locale");
-            return;
-        }
-        BaseContext.execEnv = EnvironmentUtil.getEnvironmentData(envName, ExecutionLocale.IN);
-    }
-
-    @BeforeClass(alwaysRun = true)
-    public void setUp(ITestContext context) {
+    @Override
+    public void beforeSuite() {
         super.init(Services.CustomerLoginService());
         dataKeyName = "Data_Key";
-        LogManager.logInfo("-------------------------------");
-        LogManager.logInfo("Logfile Path = ");
-        LogManager.logInfo("-------------------------------");
     }
 
-    @AfterSuite(alwaysRun = true)
-    public String finishSuite(ITestContext context) {
-        LogManager.logInfo("-------------------------------");
-        LogManager.logInfo("Suite Finished ");
-        LogManager.logInfo("Total Tests : " + context.getAllTestMethods().length);
-        LogManager.logInfo("Passed Tests : " + context.getPassedTests().size());
-        LogManager.logInfo("Failed Tests : " + context.getFailedTests().size());
-        LogManager.logInfo("-------------------------------");
-        return "hi";
+    @Override
+    public void beforeClass() {
+
+    }
+
+    @Override
+    public void afterSuite() {
+
+    }
+
+    @Override
+    public void afterClass() {
+
     }
 
     protected void setValidationData(Map<String, String> values)
