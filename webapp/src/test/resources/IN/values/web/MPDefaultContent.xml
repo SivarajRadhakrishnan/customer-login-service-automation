@@ -1,0 +1,875 @@
+<values>
+    <!--Application Form Details Error Start //-->
+    <value id="appValidMobileErrorMessage" defaultvalue="Enter Valid Mobile" asstring="true"/>
+    <value id="otpFailureErrorMsg" defaultvalue="You have exceeded the limit for mobile verification. We will call you shortly to process your application!" asstring="true"/>
+    <value id="appValidEmailErrorMessage" defaultvalue="Please enter a valid email address." asstring="true"/>
+    <value id="appValidFNameErrorMessage" defaultvalue="Enter Valid Name" asstring="true"/>
+    <value id="appValidAddressErrorMessage" defaultvalue="Required Field" asstring="true"/>
+    <value id="appValidAddressLocaltyErrorMessage" defaultvalue="Enter Valid Address" asstring="true"/>
+    <value id="appValidAddresspincodeErrorMessage" defaultvalue="Enter Valid Pincode" asstring="true"/>
+    <value id="appCurrentAddresspincodeErrorMessage" defaultvalue="Minimum should be 6 characters" asstring="true"/>
+    <value id="appValidHomeTelephoneErrorMessage" defaultvalue="Enter Valid Number" asstring="true"/>
+    <value id="appValidWorkEmailErrorMessage" defaultvalue="Please enter a valid email address." asstring="true"/>
+    <value id="appValidOfficeTelephoneErrorMessage" defaultvalue="Enter Valid Number" asstring="true"/>
+    <value id="appValidOfficePhoneErrorMessage" defaultvalue="Enter Valid Telephone Number" asstring="true"/>
+    <value id="appValidPANNoErrorMessage" defaultvalue="Enter Valid PAN Number" asstring="true"/>
+    <value id="appValidOffsAddressErrorMessage" defaultvalue="Enter Valid Address" asstring="true"/>
+    <value id="appValidOffsAddressLocaltyErrorMessage" defaultvalue="Enter Valid Address" asstring="true"/>
+    <value id="appValidOffspincodeErrorMessage" defaultvalue="Enter Valid Pincode" asstring="true"/>
+    <value id="minimumCostOfPropertyErrorMessage" defaultvalue="Below minimum funding norms"/>
+    <value id="appBlackListedWorkEmailErrorMessage" defaultvalue="Please enter a valid email ID"/>
+    <!--Application Form Details Error Ends //-->
+    <!--page titles-->
+    <value id="gatewayPageTitle" defaultvalue="Compare and Apply for Loans" asstring="true"/>
+    <value id="cibilPageTitle" defaultvalue="Free CIBIL Score" asstring="true"/>
+    <value id="TaxPageTitle" defaultvalue="Tax" asstring="true"/>
+    <value id="ifscPageTitle" defaultvalue="IFSC" asstring="true"/>
+    <value id="emiCalcPageTitle" defaultvalue="EMI Calculator" asstring="true"/>
+    <value id="savingSchemePageTitle" defaultvalue="Saving Schemes" asstring="true"/>
+    <value id="singaporepageTitle" defaultvalue="Fixed Deposit Rates in Singapore" asstring="true"/>
+    <value id="malaysiaPageTitle" defaultvalue="Compare &amp; Apply Credit Cards, Loans, Insurance in Malaysia" asstring="true"/>
+    <value id="philippinesPageTitle" defaultvalue="Philippines" asstring="true"/>
+    <value id="uaePageTitle" defaultvalue="Compare Credit Cards, Personal Loans, Car Loans, Home Loans" asstring="true"/>
+    <value id="mexicoPageTitle" defaultvalue="Compara y encuentra los mejores Créditos, Tarjetas e Hipotecas en México" asstring="true"/>
+    <value id="googlePlayPageTitle" defaultvalue="Google Play" asstring="true"/>
+    <value id="appStorePageTitle" defaultvalue="Credit Card, Loans on the App" asstring="true"/>
+    <value id="insurancePageTitle" defaultvalue="Insurance: Compare and Apply for Life, Car, Health Insurance" asstring="true"/>
+
+    <!--page titles ends here-->
+    <value id="elPersonalLoanText" defaultvalue="Get your personal loan quote in just seconds" asstring="true"/>
+    <value id="emailSubcribeImage" defaultvalue="AWESOME SAUCE!" asstring="true"/>
+
+    <value id="reviewVoteMsg" defaultvalue="Thank you for your vote" asstring="true"/>
+
+
+    <!--EL error validation message start-->
+    <value id="elGenderErrorMessage" defaultvalue="Aww! C’mon! It’s easy! Pick one!" asstring="true"/>
+    <value id="elCompanyErrorMessage" defaultvalue="Uh-oh! Please pick an employer" asstring="true"/>
+    <value id="elCityErrorMessage" defaultvalue="Uh-oh! Please select a city! We've got tons!" asstring="true"/>
+    <value id="elSalaryErrorMessage" defaultvalue="Hi! please provide your net income to proceed." asstring="true"/>
+    <value id="elSalaryDepoErrorMessage" defaultvalue="Hi! Please select an option to proceed." asstring="true"/>
+    <value id="elCurrentResidenceErrorMessage" defaultvalue="Please select an option to proceed" asstring="true"/>
+    <value id="elCurrentResidenceErrorMessage" defaultvalue="Please select an option to proceed" asstring="true"/>
+
+    <value id="elemploymentYearErrorMessage" defaultvalue="Hi! please select an input to proceed" asstring="true"/>
+    <value id="elemploymentMonthErrorMessage" defaultvalue="And your total years of experience please!!" asstring="true"/>
+    <value id="elresidenceMonthErrorMessage" defaultvalue="And your month of move to current city?" asstring="true"/>
+    <value id="elresidenceDateErrorMessage" defaultvalue="Uh-oh! Are you sure that’s the correct date?" asstring="true"/>
+    <value id="elresidenceTypeErrorMessage" defaultvalue="Hi! please select your residence type" asstring="true"/>
+    <value id="elDobErrorMessage" defaultvalue="Hi! please provide your date of birth" asstring="true"/>
+    <value id="elDobDateFormatErrorMessage" defaultvalue="Hi! Please enter date in DD/MM/YYYY format" asstring="true"/>
+    <value id="elDobMinimumAgeErrorMessage" defaultvalue="You are below the minimum age requirement" asstring="true"/>
+    <value id="elDobAgeErrorMessage" defaultvalue="Hi! Please select your age on the slider" asstring="true"/>
+   <!-- <value id="elemploymentMonthErrorMessage" defaultvalue="And your month of joining?" asstring="true"/>
+
+
+
+    -->
+    <!--//Review Thanks Text To be  USED-->
+    <value id="reviewSubmittedConfirmation" defaultvalue="Thanks for your review. It may take upto 24 hrs to update these changes on our website." asstring="true"/>
+    <!--<value id="elSalaryDepoErrorMessage" defaultvalue="Hi! Your total work experience should be more than time with your current company" asstring="true"/>-->
+    <!--<value id="elSalaryDepoErrorMessage" defaultvalue="Uh-oh! Are you sure that’s the correct date?" asstring="true"/>-->
+    <!--<value id="elSalaryDepoErrorMessage" defaultvalue="Hi! please select your residence type" asstring="true"/>-->
+    <!---->
+    <!--<value id="elSalaryDepoErrorMessage" defaultvalue="Hi! Please enter date in DD/MM/YYYY format" asstring="true"/>-->
+    <!---->
+
+    <!--EL error validation message end-->
+
+    <value id="myApplication" defaultvalue="My Applications" asstring="true"/>
+    <value id="myProfile" defaultvalue="My Profile" asstring="true"/>
+    <value id="helpDesk" defaultvalue="Help Desk" asstring="true"/>
+    <value id="mySearches" defaultvalue="My Searches" asstring="true"/>
+    <value id="loginToBankBazaar" defaultvalue="Log in to BankBazaar" asstring="true"/>
+    <value id="loginOTPFailureMsg" defaultvalue="You have exceeded the maximum number of trials. Kindly log in via Google+ or Facebook. Or try again after a while!" asstring="true"/>
+    <value id="resetPassword" defaultvalue="Reset Password" asstring="true"/>
+    <value id="signInWithFacebook" defaultvalue="Facebook" asstring="true"/>
+    <value id="signInWithGooglePlus" defaultvalue="Google +" asstring="true"/>
+    <value id="createAnAccount" defaultvalue="Create an account" asstring="true"/>
+    <value id="fbRedirection" defaultvalue="BankBazaar" asstring="true"/>
+    <value id="googleRedirection" defaultvalue="Sign In" asstring="true"/>
+    <value id="newUserButton" defaultvalue="New User" asstring="true"/>
+    <value id="existingUserButton" defaultvalue="Existing User" asstring="true"/>
+
+    <value id="longElMobileErrorMessage" defaultvalue="Invalid mobile number" asstring="true"/>
+    <value id="longElDobErrorMessage" defaultvalue="Invalid date" asstring="true"/>
+    <value id="longElCurrentCityErrorMessage" defaultvalue="Enter Valid year" asstring="true"/>
+    <value id="longElCurrentResidenceErrorMessage" defaultvalue="This should be greater than current start city date" asstring="true"/>
+
+    <value id="InvalidPanContent" defaultvalue="Your PAN has not been verified!" asstring="true"/>
+
+    <value id="thankYouPageEmailErrorMessage" defaultvalue="Please enter Email" asstring="true"/>
+    <value id="thankYouPageMobileErrorMessage" defaultvalue="Please enter valid mobile" asstring="true"/>
+    <value id="thankYouPageVerifyMobileText" defaultvalue="Verify your mobile number!" asstring="true"/>
+    <value id="thankYouPageVerifyEmailText" defaultvalue="Verify your email id" asstring="true"/>
+    <value id="thankYouPageGiveCallText" defaultvalue="Give a missed call" asstring="true"/>
+    <value id="thankYouPageMobileNumberText" defaultvalue="044 - 66510501" asstring="true"/>
+    <value id="thankYouPageSmsNumberText" defaultvalue="97734 67070" asstring="true"/>
+    <value id="thankYouPageAttemptsErrorMsg" defaultvalue="Incorrect Code. 3 attempt(s) left." asstring="true"/>
+    <value id="thankYouPageVerifyEmailSentToYouText" defaultvalue="Click verification link in email sent to you" asstring="true"/>
+    <value id="thankYouPageTellYourFriendsText" defaultvalue="Liked this experience? Tell your friends" asstring="true"/>
+    <value id="thankYouPageClVerifyText" defaultvalue="Thank you for submitting your Car Loan application" asstring="true"/>
+    <value id="thankYouPageCCVerifyText" defaultvalue="Thank you for submitting your Credit Card application" asstring="true"/>
+    <value id="thankYouPageVerifyText" defaultvalue="Thank you for submitting your Personal Loan application" asstring="true"/>
+    <value id="thankYouPagePleaseEnterCode" defaultvalue="Please enter code" asstring="true"/>
+    <value id="thankYouPageEnterCodeSentToYou" defaultvalue="Enter code sent to you" asstring="true"/>
+
+    <value id="emailNotEnteredErrorMessage" defaultvalue="Uh-oh! Please enter a valid email or a valid mobile number" asstring="true"/>
+    <value id="passwordNotEnteredErrorMessage" defaultvalue="Uh-oh! Password should contain at least 8 characters" asstring="true"/>
+    <value id="verificationCodeErrorMessage" defaultvalue="Uh-oh! Invalid activation code." asstring="true"/>
+    <value id="existingCreditCardErrorMessage" defaultvalue="Select none if you do not have any cards." asstring="true"/>
+    <value id="maximumCreditCardErrorMessage" defaultvalue="Hi! please provide the maximum credit of your existing cards." asstring="true"/>
+    <value id="grossAnnualErrorMessage" defaultvalue="Hi! please provide your gross annual income to proceed" asstring="true"/>
+    <value id="grossMonthlyErrorMessage" defaultvalue="Hi! please provide your gross monthly income to proceed." asstring="true"/>
+    <value id="HDFCBANK" defaultvalue="ICICI BANK" asstring="true"/>
+
+
+    <value id="elCarLoanText" defaultvalue="Get your car loan quote in just seconds" asstring="true"/>
+    <value id="nameRequiredErrorMessage" defaultvalue="Uh-oh! Please enter your first name here"/>
+    <value id="mobileRequiredErrorMessage" defaultvalue="Your number? We’ll call you only to process your card"/>
+    <value id="mobileRequiredErrorMessageForLoans" defaultvalue="Your number?We’ll call you only to process your loan"/>
+    <value id="emailRequiredErrorMessage" defaultvalue="Hi! Please enter a value to poceed"/>
+    <value id="carLoanSpecialOfferText" defaultvalue="Special Offer - Zero pre-closure charges after 18 months"/>
+    <value id="personalLoanSpecialOfferText" defaultvalue="25% part payment allowed in a year."/>
+    <value id="selectOneMoreOfferToCompare" defaultvalue="Please select at least 1 more Loan offer to compare."/>
+    <value id="selectOneMoreInsuranceToCompare" defaultvalue="Please select at least 1 more Insurance offer to compare."/>
+    <value id="compareOnlyTwoOffers" defaultvalue="Sorry, you can compare only up to 2 Loan offers at a time"/>
+    <value id="compareOnlyTwoInsurance" defaultvalue="Sorry, you can compare only up to 2 Insurance offers at a time"/>
+    <value id="compareOnlyThreeInsurance" defaultvalue="Sorry, you can compare only up to 3 Insurance offers at a time"/>
+    <value id="appValidWorkTelephoneErrorMessage" defaultvalue="Enter Valid Telephone Number" asstring="true"/>
+    <value id="appValidGenderErrorMessage" defaultvalue="Required Field" asstring="true"/>
+    <value id="carLoanProductURL" defaultvalue="bankbazaar.com/car-loan.html"/>
+    <value id="pageTitle" defaultvalue="Car Loan Eligibility Details"/>
+    <value id="mobileError" defaultvalue="Uh-oh! This number appears incorrect/invalid. Please re-enter your phone number."/>
+    <!--Senthil App validation Values Start -->
+    <value id="verifyYourMobileErrorMessage" defaultvalue="Please verify your mobile" asstring="true"/>
+    <value id="appValidMobileErrorMessage" defaultvalue="Enter Valid Mobile" asstring="true"/>
+    <value id="appValidEmailErrorMessage" defaultvalue="Please enter a valid email address." asstring="true"/>
+    <value id="appValidFNameErrorMessage" defaultvalue="Enter Valid Name" asstring="true"/>
+    <value id="requiredFieldErrorMessage" defaultvalue="Required Field" asstring="true"/>
+    <value id="appValidAddressLocaltyErrorMessage" defaultvalue="Enter Valid Address" asstring="true"/>
+    <value id="appValidAddressLocalty1ErrorMessage" defaultvalue="Please provide door/building number also" asstring="true"/>
+    <value id="appValidAddresspincodeErrorMessage" defaultvalue="Enter Valid Pincode" asstring="true"/>
+    <value id="appCurrentAddresspincodeErrorMessage" defaultvalue="Minimum should be 6 characters" asstring="true"/>
+    <value id="appValidHomeTelephoneErrorMessage" defaultvalue="Enter Valid Number" asstring="true"/>
+    <value id="appValidWorkEmailErrorMessage" defaultvalue="Please enter a valid email address." asstring="true"/>
+    <value id="appValidOfficeTelephoneErrorMessage" defaultvalue="Enter Valid Number" asstring="true"/>
+    <value id="appValidPANNoErrorMessage" defaultvalue="Enter Valid PAN Number" asstring="true"/>
+    <value id="appValidOffsAddressErrorMessage" defaultvalue="Enter Valid Address" asstring="true"/>
+    <value id="appValidOffsAddressLocaltyErrorMessage" defaultvalue="Enter Valid Address" asstring="true"/>
+    <value id="appValidOffspincodeErrorMessage" defaultvalue="Enter Valid Pincode" asstring="true"/>
+    <value id="appValidationApplyLoanFromBank" defaultvalue="HDFC BANK" asstring="true"/>
+
+    <value id="copyRight" defaultvalue="Copyright © 2017   BankBazaar.com.  " asstring="true"/>
+    <value id="personalLoanProductURL" defaultvalue="bankbazaar.com/personal-loan.html"/>
+    <value id="homeLoanProductURL" defaultvalue="bankbazaar.com/home-loan.html"/>
+    <value id="savingsAccountProductURL" defaultvalue="bankbazaar.com/savings-account.html"/>
+    <value id="creditCardProductURL" defaultvalue="bankbazaar.com/credit-card.html"/>
+    <value id="debitCardProductURL" defaultvalue="bankbazaar.com/debit-card.html"/>
+    <value id="lifeInsuranceProductURL" defaultvalue="bankbazaar.com/insurance/life-insurance.html"/>
+    <value id="carInsuranceProductURL" defaultvalue="bankbazaar.com/insurance/car-insurance.html"/>
+    <value id="healthInsuranceProductURL" defaultvalue="bankbazaar.com/insurance/health-insurance.html"/>
+    <value id="usedCarLoanProductURL" defaultvalue="bankbazaar.com/used-car-loan.html"/>
+    <value id="twoWheelerLoanProductURL" defaultvalue="bankbazaar.com/two-wheeler-loan.html"/>
+    <value id="fixedDepositProductURL" defaultvalue="bankbazaar.com/fixed-deposit-rate.html"/>
+    <value id="blogProductURL" defaultvalue="blog.bankbazaar.com"/>
+    <value id="visaMenu" defaultvalue="Indian Visa"/>
+
+    <value id="instagramURL" defaultvalue="https://www.instagram.com/bankbazaar/"/>
+    <value id="googlePlusURL" defaultvalue="https://plus.google.com/+BankBazaar"/>
+    <value id="facebookURL" defaultvalue="https://www.facebook.com/bankbazaar/"/>
+    <value id="linkedinURL" defaultvalue="https://www.linkedin.com/company/bank_bazaar/"/>
+    <value id="twitterURL" defaultvalue="https://twitter.com/bankbazaar"/>
+    <value id="twitterOpenInApp" defaultvalue="BankBazaar.com" asstring="true"/>
+    <value id="linkedin" defaultvalue="BankBazaar.com" asstring="true"/>
+    <value id="googleBankBazaarText" defaultvalue="BankBazaar.com" asstring="true"/>
+    <value id="instagramLogIn" defaultvalue="bankbazaar" asstring="true"/>
+
+    <!--Senthil App validation Values End -->
+
+    <value id="zeroOfferText" defaultvalue="Sorry"/>
+    <value id="zeroOfferNoThanksLink" defaultvalue="No, thanks."/>
+    <value id="whoopsError" defaultvalue="Whoops"/>
+    <value id="checkOffersLink" defaultvalue="CHECK OFFERS"/>
+    <value id="checkOffersText" defaultvalue="Check offers from other banks!"/>
+
+    <!--John Offer insert section -->
+    <value id="missOutText" defaultvalue="DON'T MISS OUT!"/>
+    <value id="otherBankText" defaultvalue="Check offers from other banks!"/>
+    <value id="checkOfferText" defaultvalue="CHECK OFFERS"/>
+
+    <value id="rewardsData" defaultvalue="5% cash back on select transactions"/>
+    <!--<value id="joiningPerkData" defaultvalue="No joining perks"/>-->
+    <value id="joiningPerkData" defaultvalue="No joining perks"/>
+    <value id="feesData" defaultvalue="APR-37.2% -42% per annum"/>
+    <value id="moreData" defaultvalue="No annual fee waiver"/>
+    <value id="detailsContents" defaultvalue="Redeem rewards instantly across 700+ stores"/>
+    <value id="loanProessingFee" defaultvalue="Processing Fee = Rs "/>
+    <value id="loanPartialPaymentCharges" defaultvalue="Preclosure fee = Permitted after 6 months. 6% of principal outstanding (plus ST) from 7 to 12 months. 5% (plus ST) in 2nd year. No preclosure charges thereafter"/>
+    <value id="loanPreclosurecCharges" defaultvalue="Pre-closure permitted after 6 months. Pre-closure fee = 6% of principal outstanding from 7th to 24th month; No pre-closure charges thereafter."/>
+
+    <value id="recordErrorMessage" defaultvalue="No records found. Please recheck."/>
+    <value id="dataMissMatchError" defaultvalue="The information you entered does not match what we have on file. Please double check your entry and try again."/>
+    <value id="errorInfo" defaultvalue="This info is required"/>
+    <value id="carLoanEligibilityURL" defaultvalue="bankbazaar.com/car-loan-eligibility.html"/>
+    <value id="hungryForMoreSectionTitle" defaultvalue="Car Loan BYTES FROM OUR KITCHEN"/>
+    <value id="mobileSuccessTitle" defaultvalue="We've got your digits!"/>
+    <value id="mobileSuccessDesc" defaultvalue="You will receive a call shortly from our customer support."/>
+    <value id="trackYourApplicationStatusText" defaultvalue="Track Your Application Status"/>
+    <value id="trackApplicationSecurityReasonsText" defaultvalue="For security reasons, please answer the fields below to fetch your application."/>
+
+    <value id="talkToOurInHouseExperts" defaultvalue="Talk to our in-house experts!"/>
+    <value id="callUs" defaultvalue="Call Us"/>
+    <value id="minimumBalanceText" defaultvalue="Condition apply*"/>
+    <value id="activationDepositText" defaultvalue="11,200"/>
+    <value id="moreText" defaultvalue="You'll also love"/>
+    <value id="frillsText" defaultvalue="Cheque Book"/>
+    <value id="carFirstRegistered" defaultvalue="When was your car first registered?"/>
+    <value id="insuranceZeroOffersText" defaultvalue="We're sorry. No offers were found."/>
+
+    <value id="CompareWithOtherBanks" defaultvalue="Compare with other banks"/>
+    <value id="homeLoanPartnersURL" defaultvalue="bankbazaar.com/home-loan-partners.html"/>
+    <value id="offerTitle" defaultvalue="Car Loan"/>
+    <value id="PLAppPageErorMessages" defaultvalue="app.details.applicant.currentContactDetail.primaryEmail.contact,app.details.applicant.firstName,app.details.applicant.lastName,app.details.applicant.maritalStatus,app.details.applicant.maidenName,app.details.applicant.highestEducationalQualification,app.details.applicant.currentContactDetail.address.line1,app.details.applicant.currentContactDetail.address.line2,app.details.applicant.employment.designation,app.details.applicant.officialContactDetail.primaryEmail.contact,app.details.applicant.preferredContactAddress,app.details.applicant.uniquePersonIdentifier.pan"/>
+    <value id="CCAppPageErorMessages" defaultvalue="app.details.applicant.currentContactDetail.primaryEmail.contact,app.details.applicant.firstName,app.details.applicant.lastName,app.details.applicant.currentContactDetail.address.line1,app.details.applicant.currentContactDetail.address.line2,app.details.applicant.residenceType,app.details.applicant.employment.designation,app.details.applicant.officialContactDetail.primaryEmail.contact,app.details.applicant.gender,app.details.applicant.uniquePersonIdentifier.pan"/>
+    <value id="CLAppPageErorMessages" defaultvalue="app.details.applicant.currentContactDetail.primaryEmail.contact,app.details.applicant.firstName,app.details.applicant.lastName,app.details.applicant.religion,app.details.applicant.category,app.details.applicant.numberOfDependents,app.details.applicant.gname,app.details.applicant.highestEducationalQualification,app.details.applicant.currentContactDetail.address.line1,app.details.applicant.currentContactDetail.address.line2,app.details.applicant.currentContactDetail.address.pincode,app.details.applicant.employment.designation,app.details.applicant.officialContactDetail.primaryEmail.contact,app.details.applicant.employment.industryType,app.details.applicant.employment.employerType,app.details.applicant.officialContactDetail.telephone.number,app.details.references[0].firstName,app.details.references[0].applicantRelation,app.details.references[0].currentContactDetail.address.line1,app.details.references[0].currentContactDetail.address.pincode,app.details.references[0].currentContactDetail.primaryMobile.contact,app.details.references[1].firstName,app.details.references[1].applicantRelation,app.details.references[1].currentContactDetail.address.line1,app.details.references[1].currentContactDetail.address.pincode,app.details.references[1].currentContactDetail.primaryMobile.contact,app.details.applicant.defaultBankAccount.accountNumber,app.details.applicant.gender,app.details.applicant.maritalStatus,app.details.applicant.miscPersonalInfo.COPY_ADDRESS_APPLICANT_CURRENT_APPLICANT_PERMANENT,app.details.applicant.uniquePersonIdentifier.pan"/>
+    <value id="zeroOfferTextHL" defaultvalue="Based on the information you provided, we were unable to find a suitable offer from any of our banking partners." asstring="true"/>
+    <value id="DCAppPageErorMessages" defaultvalue="app.details.applicant.currentContactDetail.primaryMobile.contact,app.details.applicant.currentContactDetail.primaryEmail.contact,app.details.applicant.title,app.details.applicant.firstName,app.details.applicant.lastName,app.details.applicant.currentContactDetail.secondaryMobile,app.details.applicant.income.netAnnualIncome,app.details.applicant.currentContactDetail.address.line1,app.details.applicant.currentContactDetail.address.line2,app.details.applicant.currentContactDetail.address.pincode"/>
+    <value id="SAAppPageErorMessages" defaultvalue="app.details.applicant.currentContactDetail.primaryMobile.contact,app.details.applicant.firstName,app.details.applicant.lastName,app.details.applicant.currentContactDetail.address.line1,app.details.applicant.currentContactDetail.address.pincode,app.details.applicant.gender,app.details.applicant.miscPersonalInfo.INDUSIND_SAVING_TF,app.details.applicant.uniquePersonIdentifier.pan"/>
+    <value id="FDAppPageErorMessages" defaultvalue="app.details.applicant.currentContactDetail.primaryMobile.contact,app.details.applicant.currentContactDetail.primaryEmail.contact,app.details.applicant.firstName,app.details.applicant.lastName,applicantPlaceHolder.dob.day,applicantPlaceHolder.dob.month,applicantPlaceHolder.dob.year,app.details.applicant.currentContactDetail.address.line1,app.details.applicant.currentContactDetail.address.line2,app.details.applicant.miscPersonalInfo.MATURITY_INSTRUCTIONS,app.details.applicant.defaultBankAccount.type,app.details.applicant.defaultBankAccount.accountNumber,app.details.applicant.defaultBankAccount.ifscCode,app.details.applicant.miscPersonalInfo.ADD_NOMINEE_TF,app.details.applicant.uniquePersonIdentifier.pan"/>
+    <value id="religareHealthMicroSiteUrl" defaultvalue="customer.religarehealthinsurance.com"/>
+    <value id="bajajHealthMicroSiteUrl" defaultvalue="buybajajhealthinsurance.com"/>
+    <value id="cashlessGaragesUrl" defaultvalue="/car-insurance/cashless-garages-network.html"/>
+    <value id="starHealthInsuranceUrl" defaultvalue="/insurance/star-health-insurance.html"/>
+    <value id="pLReviewPageUrl" defaultvalue="/reviews.html"/>
+
+    <value id="criticalFactorData" defaultvalue="ROOM RENT ELIGIBILITY"/>
+    <value id="highlightsData" defaultvalue="Pre/Post hospitalization"/>
+    <value id="premiumAmount" defaultvalue="7251"/>
+    <value id="revisedPremium" defaultvalue="Your premium amount has been revised by"/>
+    <value id="offerInfoTextCC" defaultvalue="Note: Based on your info we have refreshed you with new set of Credit Card which matches you perfectly!"/>
+
+    <value id="instantApproval" defaultvalue="Paperless approval"/>
+
+    <value id="UCLAppPageErorMessages" defaultvalue="app.details.applicant.currentContactDetail.primaryEmail.contact,app.details.applicant.firstName,app.details.applicant.lastName,app.details.applicant.numberOfDependents,app.details.applicant.currentContactDetail.address.line1,app.details.applicant.currentContactDetail.address.line2,app.details.applicant.currentContactDetail.address.pincode,app.details.applicant.employment.designation,app.details.applicant.officialContactDetail.primaryEmail.contact,app.details.applicant.gender,app.details.applicant.appliedInLastThreeMonths,app.details.applicant.uniquePersonIdentifier.pan"/>
+    <value id="HIAppPageErorMessages" defaultvalue="app.details.applicant.currentContactDetail.primaryMobile.contact,app.details.applicant.currentContactDetail.primaryEmail.contact,app.details.applicant.firstName,app.details.applicant.lastName,app.details.applicant.currentContactDetail.address.line1,app.details.applicant.currentContactDetail.address.line2,app.details.applicant.currentContactDetail.address.pincode,app.details.applicant.miscPersonalInfo.CITY_CODE,app.details.applicant.miscPersonalInfo.AREA_CODE,applicantPlaceHolder.dob.day,applicantPlaceHolder.dob.month,applicantPlaceHolder.dob.year,app.details.lifeInsuredList[0].firstName,app.details.lifeInsuredList[0].lastName,lifeInsuredPlaceHolderList[0].dob.day,lifeInsuredPlaceHolderList[0].dob.month,lifeInsuredPlaceHolderList[0].dob.year,app.details.lifeInsuredList[0].medicalInfo.HEIGHT_CMS,app.details.lifeInsuredList[0].medicalInfo.WEIGHT_KGS,app.details.lifeInsuredList[1].firstName,app.details.lifeInsuredList[1].lastName,lifeInsuredPlaceHolderList[1].dob.day,lifeInsuredPlaceHolderList[1].dob.month,lifeInsuredPlaceHolderList[1].dob.year,app.details.lifeInsuredList[1].medicalInfo.HEIGHT_CMS,app.details.lifeInsuredList[1].medicalInfo.WEIGHT_KGS,app.details.lifeInsuredList[0].gender,app.details.lifeInsuredList[0].medicalInfo.CANCER_TF,app.details.lifeInsuredList[0].medicalInfo.KIDNEY_PROBLEM_TF,app.details.lifeInsuredList[0].medicalInfo.HEART_PROBLEM_TF,app.details.lifeInsuredList[0].medicalInfo.DEPRESSION_PSYCHIATRIC_PROBLEM_TF,app.details.lifeInsuredList[0].medicalInfo.DRUGS_TF,app.details.lifeInsuredList[1].gender,app.details.lifeInsuredList[1].medicalInfo.CANCER_TF,app.details.lifeInsuredList[1].medicalInfo.KIDNEY_PROBLEM_TF,app.details.lifeInsuredList[1].medicalInfo.HEART_PROBLEM_TF,app.details.lifeInsuredList[1].medicalInfo.DEPRESSION_PSYCHIATRIC_PROBLEM_TF,app.details.lifeInsuredList[1].medicalInfo.DRUGS_TF,app.details.applicant.miscPersonalInfo.SOCIAL_STATUS,app.details.applicant.miscPersonalInfo.SOCIAL_STATUS_UNORGANIZED,app.details.applicant.miscPersonalInfo.SOCIAL_STATUS_BPL,app.details.applicant.miscPersonalInfo.SOCIAL_STATUS_DISABLED,app.details.applicant.miscPersonalInfo.SOCIAL_STATUS_INFORMAL"/>
+    <value id="CIAppPageErorMessages" defaultvalue="app.details.applicant.currentContactDetail.primaryMobile.contact,app.details.applicant.currentContactDetail.primaryEmail.contact,app.details.applicant.firstName,app.details.applicant.lastName,applicantPlaceHolder.dob.day,applicantPlaceHolder.dob.month,applicantPlaceHolder.dob.year,app.details.applicant.miscPersonalInfo.NATURE_OF_OCCUPATION,app.details.applicant.currentContactDetail.address.line0,app.details.applicant.currentContactDetail.address.line1,app.details.applicant.currentContactDetail.address.city.name,app.details.applicant.currentContactDetail.address.pincode,app.details.carDetail.carRegistrationNumber.unique,app.details.carDetail.chassisNumber,app.details.carDetail.engineNumber,app.details.insurancePolicyToTransfer.policyId,app.details.applicant.nominees[0].firstName,applicantPlaceHolder.nomineesDob[0].day,applicantPlaceHolder.nomineesDob[0].month,applicantPlaceHolder.nomineesDob[0].year,app.details.applicant.nominees[0].applicantRelation,app.details.applicant.gender,app.details.applicant.maritalStatus,app.details.carDetail.financed,app.details.applicant.miscPersonalInfo.OWNERSHIP_CHANGED_TF,app.details.applicant.miscPersonalInfo.REGISTRATION_SAME_CURRENT"/>
+    <value id="TWIAppPageErorMessages" defaultvalue="app.details.applicant.currentContactDetail.primaryMobile.contact,app.details.applicant.currentContactDetail.primaryEmail.contact,app.details.applicant.firstName,app.details.applicant.lastName,applicantPlaceHolder.dob.day,applicantPlaceHolder.dob.month,applicantPlaceHolder.dob.year,app.details.applicant.currentContactDetail.address.line0,app.details.applicant.currentContactDetail.address.line1,app.details.applicant.currentContactDetail.address.city.name,app.details.applicant.currentContactDetail.address.pincode,app.details.twDetail.chassisNumber,app.details.twDetail.engineNumber,app.details.applicant.insuranceInfo.PAYMENT_MODE,app.details.applicant.nominees[0].firstName,applicantPlaceHolder.nomineesDob[0].day,applicantPlaceHolder.nomineesDob[0].month,applicantPlaceHolder.nomineesDob[0].year,app.details.applicant.nominees[0].applicantRelation,app.details.applicant.gender,app.details.applicant.miscPersonalInfo.REGISTRATION_SAME_CURRENT"/>
+    <value id="HLAppPageErorMessages" defaultvalue="app.details.applicant.currentContactDetail.primaryEmail.contact,app.details.applicant.firstName,app.details.applicant.lastName,app.details.applicant.gname,app.details.applicant.currentContactDetail.address.line1,app.details.applicant.currentContactDetail.address.line2,app.details.applicant.currentContactDetail.address.pincode,app.details.applicant.employment.designation,app.details.applicant.officialContactDetail.primaryEmail.contact,app.details.applicant.employment.salaryMethod,app.details.applicant.uniquePersonIdentifier.pan"/>
+    <value id="elZeroOfferPageText" defaultvalue="Thank you for your interest in Life Insurance. Based on your information, there are no suitable Life policies for you. If you wish to edit the information you provided, please click here"/>
+    <value id="emailSuccessMessage" defaultvalue="Superb! The link's in your Email inbox!"/>
+    <value id="microSiteUrl" defaultvalue="buyeasy.aegonlife.com"/>
+    <value id="saveEmailErrorMessage" defaultvalue="Uh-oh! Please enter your email" asstring="true"/>
+    <value id="saveValidEmailErrorMessage" defaultvalue="Uh-oh! Please enter a valid email" asstring="true"/>
+    <value id="emailModalMessage" defaultvalue="Looks like we don't have your email" asstring="true"/>
+    <value id="zeroOfferThankYouText" defaultvalue="Oops! Sorry!"/>
+    <value id="zeroOfferBasedOnInfoText" defaultvalue="We can't find any offers based on the info you've given"/>
+    <value id="insuranzoneSiteURL" defaultvalue="bankbazaarinsurance.com/life-insurance/application"/>
+    <value id="microSiteURL" defaultvalue="buyeasy.aegonlife.com/life-insurance/aegon-life"/>
+    <value id="paymentResponse" defaultvalue="unsuccessful"/>
+    <value id="offerInfoText" defaultvalue="Note: Based on your info we have refreshed the set of Personal Loan offers which matches you perfectly!"/>
+    <value id="noOfferInfoText" defaultvalue="Uh-oh! No offers available for your selection. But we have other exciting offers for you!"/>
+    <value id="congratsText" defaultvalue="Your Personal Loan Application has been submitted."/>
+    <value id="congratsCCText" defaultvalue="Your Credit Card Application has been submitted."/>
+    <value id="requiredErrorMessage" defaultvalue="required shadowOn error" asstring="true"/>
+    <value id="validReligionErrorMessage" defaultvalue="Enter Valid Religion" asstring="true"/>
+    <value id="rateType" defaultvalue="Monthly reducing"/>
+    <value id="leadFormMessageText" defaultvalue="Don't have time to complete the form now? Provide us with a few details and our representative will contact you to take this forward." asstring="true"/>
+    <value id="aegonMicroSiteUrl" defaultvalue="buyeasy.aegonlife.com"/>
+    <value id="hdfcLifeMicroSiteUrl" defaultvalue="www.buyhdfclifeinsurance.com"/>
+    <value id="insuraZoneUrl" defaultvalue="bankbazaarinsurance.com"/>
+    <value id="preferNotToWaitText" defaultvalue="I prefer not to wait, please email me the link"/>
+    <value id="additionalSlideHeader" defaultvalue="Applied for YES Bank PL in past 3 months"/>
+    <value id="flashSaleLogo" defaultvalue="Go-ibibo Flash Sale"/>
+    <value id="plHeadlineSaleContent" defaultvalue="Rs. 750 Amazon Voucher on disbursal"/>
+    <value id="plProductInfoContent" defaultvalue="Interest Rate: 10.99% p.a. - 20% p.a., Tenure: 1 - 6 years, P. Fee: 0% - 3% of loan amount. E.g. Loan amount = Rs. 1 lakh, Tenure = 3 years, APR = 12.5% equates to Monthly EMI = Rs. 3,345, Cost of loan you repay = Rs. 1,20,433."/>
+    <value id="bankStatementHeader" defaultvalue="Upload your salary"/>
+    <value id="aadhaarHeader" defaultvalue="Verify your identity by"/>
+    <value id="addressHeader" defaultvalue="Verify your current address"/>
+
+    <value id="selectHtmlPage" defaultvalue="bankbazaar.com/select.html"/>
+    <value id="myaccountHtmlPage" defaultvalue="bankbazaar.com/myaccount.html"/>
+    <value id="loanPage" defaultvalue="bankbazaar.com/loan.html"/>
+    <value id="continueButtonContent" defaultvalue="Continue"/>
+    <value id="bSScrapingConsentError" defaultvalue="Please accept to Continue"/>
+    <value id="plOfferTextMsg" defaultvalue="HDFC BANK Personal Loan selected is unavailable but we have found other offers that might interest you!"/>
+    <value id="ccOfferTextMsg" defaultvalue="Your selected Credit Card is unavailable but we have found other offers that might interest you!"/>
+    <value id="clOfferTextMsg" defaultvalue="TVS CREDIT SERVICES Car Loan selected is unavailable but we have found other offers that might interest you!"/>
+    <value id="hlOfferTextMsg" defaultvalue="Home Loan selected is unavailable but we have found other offers that might interest you!"/>
+    <value id="talkToUsSuccessMsg" defaultvalue="Aww! You're interested! Awesome, thanks! Our friendly rep will be in touch with you within the next 24 hours. Keep an eye out!"/>
+    <value id="thankYouPageHomeLoanText" defaultvalue="A few extra steps to speed up your ICICI Home Loan application!"/>
+    <value id="reviewTitleCL" defaultvalue="random" type="fromvalueset" valueset="Car Loan Customer Reviews"/>
+    <value id="submitErrorMsg" defaultvalue="Uh-oh! Please enter a valid email"/>
+    <value id="existingUserErrorMsg" defaultvalue="This login ID already exists. Please use the existing password to log in or reset password using forgot password"/>
+    <value id="forgotPasswordText" defaultvalue="Forgot Password?"/>
+    <value id="backToLoginText" defaultvalue=" Back to Login"/>
+    <value id="submitText" defaultvalue="Submit"/>
+    <value id="helpContactNo" defaultvalue="+91 44 66511800"/>
+    <value id="helpContactEmail" defaultvalue="support@bankbazaar.com"/>
+    <value id="verificationTextMsg" defaultvalue="A verification code has been sent on this number. Please enter the code here to verify your mobile number"/>
+    <value id="logOutText" defaultvalue="Logout"/>
+    <value id="thankYouPagePersonalLoanText" defaultvalue="A few extra steps to speed up your TATA CAPITAL personal-loan application!"/>
+    <value id="thankYouPagePersonalLoanText" defaultvalue="A few extra steps to speed up your TATA CAPITAL Personal Loan application"/>
+    <value id="whatIsYourAgeSlide" defaultvalue="years completed"/>
+    <value id="thankYouPageUCLText" defaultvalue="A few extra steps to speed up your TVS CREDIT SERVICES Car Loan application!"/>
+    <value id="thankYouPageCCText" defaultvalue="A few extra steps to speed up your SBI CARDS Credit Card application"/>
+    <value id="reaffirmationMsgCC" defaultvalue="Your selected Credit Card is unavailable but we have found other offers that might interest you!"/>
+    <value id="reaffirmationMsgPL" defaultvalue="Personal Loan is currently unavailable but we have found its closest matches that might interest you!"/>
+    <value id="offerMessage" defaultvalue="Based on your info we have refreshed you with new set of Personal Loan which matches you perfectly!"/>
+    <value id="thankYouPagePLIndusIndText" defaultvalue="A few extra steps to speed up your INDUSIND BANK Personal Loan application"/>
+    <value id="thankYouPagePLCapitalFirstText" defaultvalue="A few extra steps to speed up your CAPITAL FIRST Personal Loan application"/>
+    <value id="customerReviewsText" defaultvalue="Customer Reviews"/>
+    <value id="reviewTitleHL" defaultvalue="Home Loan Customer Reviews"/>
+    <value id="insuranceMore" defaultvalue="Product Brochure"/>
+    <value id="additionalCoverage" defaultvalue="Only Basic Cover"/>
+    <value id="highlights" defaultvalue="Tax Benefits under Section 80C"/>
+    <value id="criticalFactor" defaultvalue="Grievances Resolved"/>
+    <value id="CompleteNowButton" defaultvalue="Complete Now"/>
+    <value id="myGenderSlide" defaultvalue="My gender"/>
+    <value id="citySlide" defaultvalue="Where do you live currently?"/>
+    <value id="TWIELSlide" defaultvalue="find the best Two-Wheeler Insurance offers for you."/>
+    <value id="netMonthlySalariedSlide" defaultvalue="My net monthly salary is"/>
+    <value id="netAnnualSalariedSlide" defaultvalue="Net Annual Income"/>
+    <value id="salariedDepositedToSlide" defaultvalue="My salary account is with"/>
+    <value id="GrossFixedMonthlyIncome" defaultvalue="Gross fixed monthly income"/>
+    <value id="joiningDateSlide" defaultvalue="Joining date"/>
+    <value id="whenDidYouMoveToSlide" defaultvalue="When did you move to"/>
+    <value id="tellUsYourResidenceSlide" defaultvalue="Tell us about your residence type"/>
+    <value id="totalEmiSlide" defaultvalue="Total EMIs"/>
+    <value id="contactSlide" defaultvalue="Need to talk? Leave your number."/>
+    <value id="propertyCitySlide" defaultvalue="City in which property is based"/>
+    <value id="purposeSlide" defaultvalue="How would you like to use your home loan?"/>
+    <value id="typeOsEmployementSlide" defaultvalue="Type of employment"/>
+    <value id="latestProfitSlide" defaultvalue="Latest year's profit after tax"/>
+    <value id="dobSide" defaultvalue="Date of birth"/>
+    <value id="propertySlide" defaultvalue="Tell us about your property"/>
+    <value id="builderSlide" defaultvalue="Name of builder"/>
+    <value id="costOfHomeSlide" defaultvalue="Cost of home/flat"/>
+    <value id="coApplicantSlide" defaultvalue="Would you like to add a co-applicant?"/>
+    <value id="companyIWorkFor" defaultvalue="Company I work for"/>
+    <value id="totalAnnualBonus" defaultvalue="Total annual bonus"/>
+    <value id="averageMonthlyIncentives" defaultvalue="Average monthly incentives"/>
+    <value id="HowWouldYouLikeToUseYourLoanSlide" defaultvalue="How would you like to use your loan?"/>
+    <value id="whichBankIsYourExistingPLLoanSlide" defaultvalue="Which bank is your existing personal loan with?"/>
+    <value id="outStandingBalanceOnExistingPLLoanSlide" defaultvalue="Outstanding balance on existing personal loan"/>
+    <value id="WhenDidYouBeginYourExistingLoanSlide" defaultvalue="When did you begin your existing loan?"/>
+    <value id="eldestMemberSlide" defaultvalue="How old is the eldest member to be insured?"/>
+    <value id="registeredSlide" defaultvalue="Where was your two wheeler registered?"/>
+    <value id="balanceOfferText" defaultvalue="BALANCE TRANSFER OFFER"/>
+    <value id="whichBankIsYourExistingLongElText" defaultvalue="WHICH BANK IS YOUR EXISTING LOAN WITH"/>
+    <value id="outStandingBalanceOnExistingLongElText" defaultvalue="OUTSTANDING BALANCE ON EXISTING LOAN"/>
+    <value id="WhenDidYouBeginYourExistingLongElText" defaultvalue="WHEN DID YOU BEGIN YOUR EXISTING LOAN?"/>
+    <value id="dailyLimits" defaultvalue="2.5 Lakhs"/>
+    <value id="noOfferTextLI" defaultvalue="We can't find any offers based on the info you've given"/>
+    <value id="thankYouPageFDText" defaultvalue="A few extra steps to speed up your STFC Fixed Deposit application"/>
+    <value id="badgeSaleClueTipText" defaultvalue="For disbursed cases till 12th May'17"/>
+    <value id="badgeDealImageText" defaultvalue="Rs.2500 Amazon voucher free"/>
+    <value id="badgeSaleClueTipTextCC_SBI" defaultvalue="The Amazon voucher is valid only for applications approved by 12th May'17. The BookMyshow voucher offer is valid till 31st March 2017 and for applications approved by 15th May 2017 only."/>
+    <value id="badgeDealImageTextCC_SBI" defaultvalue="FREE RS.750 AMAZON &amp; RS.750 BOOKMYSHOW VOUCHERS"/>
+    <value id="badgeSaleClueTipTextCL_CapitalFirst" defaultvalue="For disbursed cases till 12th May'17* and 30th April 2017**"/>
+    <value id="badgeDealImageTextCL_CapitalFirst" defaultvalue="RS.5000 AMAZON VOUCHER FREE"/>
+    <value id="dealsPageUrl" defaultvalue="view-deals.html"/>
+    <value id="dealsEndDate" defaultvalue="31st Mar 2017"/>
+    <!--<value id="dealExpiresInWeeks" defaultvalue="weeks"/>-->
+    <!--<value id="dealExpiresInDays" defaultvalue="days"/>-->
+    <value id="thankYouPagePLICICIText" defaultvalue="A few extra steps to speed up your ICICI Personal Loan application"/>
+    <value id="thankYouPageCCAmexText" defaultvalue="A few extra steps to speed up your AMERICAN EXPRESS Credit Card application"/>
+    <value id="thankYouPageCCHdfcText" defaultvalue="A few extra steps to speed up your HDFC Credit Card application"/>
+    <value id="floatingText" defaultvalue="Special floating rate"/>
+    <value id="thankYouPagePLHdbfsText" defaultvalue="A few extra steps to speed up your HDB FINANCIAL SERVICES Personal Loan application"/>
+    <value id="elSalaryLessThan1LakhErrorMessage" defaultvalue="Uh Oh! net annual salary should be > Rs.1,00,000" asstring="true"/>
+    <value id="thankYouPageCCIndusIndText" defaultvalue="A few extra steps to speed up your INDUSIND BANK Credit Card application"/>
+    <value id="thankYouPagePLFullertonText" defaultvalue="A few extra steps to speed up your FULLERTON Personal Loan application"/>
+    <value id="loginText" defaultvalue="Login"/>
+    <value id="customerSignYes" defaultvalue="I confirm that the customer has signed the printed application form and has handed it to me."/>
+    <value id="customerSignNo" defaultvalue="Customer is not willing to sign the application form right now."/>
+    <value id="thankYouPageCCIndusIndText" defaultvalue="A few extra steps to speed up your INDUSIND BANK Credit Card application"/>
+    <value id="thankYouPageCCAxisText" defaultvalue="A few extra steps to speed up your AXIS BANK Credit Card application"/>
+    <value id="thankYouPageCCHSBCText" defaultvalue="A few extra steps to speed up your HSBC Credit Card application"/>
+    <value id="thankYouPageCCKotakText" defaultvalue="A few extra steps to speed up your KOTAK Credit Card application"/>
+    <value id="thankYouPagePLKotakText" defaultvalue="A few extra steps to speed up your KOTAK Personal Loan application"/>
+    <value id="thankYouPagePLSCBText" defaultvalue="A few extra steps to speed up your STANDARD CHARTERED BANK Personal Loan application"/>
+    <value id="thankYouPagePLHDFCText" defaultvalue="A few extra steps to speed up your HDFC Personal Loan application"/>
+    <value id="thankYouPagePLOBCText" defaultvalue="A few extra steps to speed up your ORIENTAL BANK Personal Loan application"/>
+    <value id="thankYouPagePLCITIText" defaultvalue="A few extra steps to speed up your CITIBANK Personal Loan application"/>
+    <value id="supportDocAndEmpCheckHeader" defaultvalue="Supporting Documents &amp; Employee Checklist for Application Submission"/>
+    <value id="docUploadQuestion" defaultvalue="Do you want to upload documents now?"/>
+    <value id="thankYouPagePLKotakText" defaultvalue="A few extra steps to speed up your KOTAK Personal Loan application"/>
+    <value id="thankYouPagePLSCBText" defaultvalue="A few extra steps to speed up your STANDARD CHARTERED BANK Personal Loan application"/>
+    <value id="thankYouPagePLHDFCText" defaultvalue="A few extra steps to speed up your HDFC Personal Loan application"/>
+    <value id="thankYouPagePLOBCText" defaultvalue="A few extra steps to speed up your ORIENTAL BANK Personal Loan application"/>
+    <value id="thankYouPagePLCITIText" defaultvalue="A few extra steps to speed up your CITIBANK Personal Loan application"/>
+    <value id="thankYouPagePLADITYAText" defaultvalue="A few extra steps to speed up your ADITYA BIRLA FINANCE LIMITED Personal Loan application"/>
+    <value id="carRegistrationNumberErrorInfo" defaultvalue="Car Number is not valid"/>
+    <value id="panVerificationText" defaultvalue="Your PAN has been verified!"/>
+    <value id="getQuoteCTAText" defaultvalue="Get Free Car Insurance Quotes"/>
+    <value id="newRenewCTAText" defaultvalue="Continue"/>
+    <value id="carNumberMaxLen" defaultvalue="11"/>
+
+    <value id="thankYouPageCLHDFCText" defaultvalue="A few extra steps to speed up your HDFC Car Loan application"/>
+    <value id="thankYouPageCLAXISText" defaultvalue="A few extra steps to speed up your AXIS BANK Car Loan application"/>
+    <value id="thankYouPageCLICICIText" defaultvalue="A few extra steps to speed up your ICICI Car Loan application"/>
+    <value id="thankYouPageCLDENAText" defaultvalue="A few extra steps to speed up your DENA BANK Car Loan application"/>
+    <value id="thankYouPageCLSFText" defaultvalue="A few extra steps to speed up your SUNDARAM FINANCE Car Loan application"/>
+    <value id="thankYouPageCLJAMMUText" defaultvalue="A few extra steps to speed up your JAMMU AND KASHMIR BANK Car Loan application"/>
+    <value id="thankYouPageCLAuFinanceText" defaultvalue="A few extra steps to speed up your AU SMALL FINANCE BANK Car Loan application"/>
+    <value id="thankYouPageCLRelianceText" defaultvalue="A few extra steps to speed up your RELIANCE CF Car Loan application"/>
+    <value id="thankYouPageUCLCapitalFirstText" defaultvalue="A few extra steps to speed up your CAPITAL FIRST Car Loan application"/>
+    <value id="thankYouPageUCLMahaveerText" defaultvalue="A few extra steps to speed up your MAHAVEER FINANCE INDIA LIMITED Car Loan application"/>
+    <value id="thankYouPageCLOBCText" defaultvalue="A few extra steps to speed up your ORIENTAL BANK Car Loan application"/>
+    <value id="thankYouPageFDSCUFText" defaultvalue="A few extra steps to speed up your SHRIRAM CITY UNION FINANCE Fixed Deposit application"/>
+
+    <value id="recordLIErrorMessage" defaultvalue="No records found"/>
+    <value id="paymentOptionText" defaultvalue="Choose your payment option"/>
+    <value id="lumpText" defaultvalue="(Lump sum)"/>
+    <value id="lumpCancerText" defaultvalue="(Payout on Cancer diagnosis)"/>
+    <value id="paymentSuccessMessage" defaultvalue="Thank you for choosing Mutual Fund"/>
+    <value id="paymentFailedMessage" defaultvalue="Oops! Something's wrong..."/>
+    <value id="tryAgainText" defaultvalue="Try Again"/>
+    <value id="coverageHighlights" defaultvalue="coverage-highlights"/>
+    <value id="criticalFactorsOfThePlan" defaultvalue="critical-factors-of-the-plan"/>
+    <value id="downloads" defaultvalue="downloads"/>
+    <value id="specialFeatures" defaultvalue="special-features"/>
+    <value id="ekycStepsText" defaultvalue="Please proceed for Aadhaar based eKYC(keep your Aadhaar number handy)"/>
+    <value id="ekycErrorMsgText" defaultvalue="As per regulations an eKYC customer can invest only upto Rs 50,000 per year in an AMC. Please check your existing investment amount per AMC"/>
+
+
+
+
+    <value id="HelpCentreText" defaultvalue="Help Centre" asstring="true"/>
+    <value id="PersonalDashboardText" defaultvalue="Personal Dashboard" asstring="true"/>
+    <value id="StartedDateText" defaultvalue="Started Date" asstring="true"/>
+    <value id="ApplicationDetailsText" defaultvalue="Application Details" asstring="true"/>
+    <value id="ccCongrats" defaultvalue="Congratulations! Your Credit Card Application has been submitted" asstring="true"/>
+    <value id="preQualifiedOfferText" defaultvalue="Pre Qualified" asstring="true"/>
+    <value id="needMoreText" defaultvalue="Need More?" asstring="true"/>
+    <value id="needMoreInfoText" defaultvalue="Customer may be eligible for a higher loan amount basis income details" asstring="true"/>
+    <value id="panPopupTItle" defaultvalue="Don't have your PAN handy?" asstring="true"/>
+    <value id="panPopupContent" defaultvalue="We will send you a SMS and an Email. Please click on the link in them to enter your PAN when you have it ready." asstring="true"/>
+    <value id="disclaimerWLHdfcLtd" defaultvalue="I/we confirm that we have read the Terms"/>
+    <value id="WLBranchCongrats" defaultvalue="Customer application has been submitted and is being reviewed"/>
+    <value id="requiredAxisCC" defaultvalue="You Have Selected The Axis Bank My Zone Credit Card"/>
+    <value id="requiredErrorMessageAxis" defaultvalue="error" asstring="true"/>
+    <value id="requiredDontshowMessageAxis" defaultvalue="dontshow" asstring="true"/>
+    <value id="whatElseText" defaultvalue="What else" asstring="true"/>
+    <value id="cardCondition" defaultvalue="Annual Fee: Rs 1,000"/>
+    <value id="panText" defaultvalue="Provide your PAN number" asstring="true"/>
+    <value id="salaryErrorMessage" defaultvalue="Provide net monthly salary" asstring="true"/>
+    <value id="appointmentSuccessMessage" defaultvalue="Thank you! Your appointment has been scheduled." asstring="true"/>
+    <value id="disclaimerWLAxis" defaultvalue="I authorize Axis Bank" asstring="true"/>
+    <value id="eligibilityNotesAxisWL" defaultvalue="Axis Bank Home Loan eligibility"/>
+    <value id="eligibilityNotes" defaultvalue="Fill form to get customized quote instantly"/>
+    <value id="preClosureText" defaultvalue="pre-closure charges after 12 months"/>
+    <value id="disclaimer" defaultvalue="I declare that the information I have provided above is accurate and complete to the best of my knowledge"/>
+    <value id="axisCLEligibilityDetails" defaultvalue="Make &amp; model of car (ex. Honda City)" asstring="true"/>
+    <value id="congratsAxisCL" defaultvalue="Your Car Loan Application has been submitted." asstring="true"/>
+    <value id="AxisCLLandingNotes" defaultvalue="Is your dream car still a dream" asstring="true"/>
+    <value id="axisHLEligibilityDetails" defaultvalue="City in which property is based"/>
+    <value id="AxisHLLandingNotes" defaultvalue="Features of Home Loan" asstring="true"/>
+    <value id="congratsAxisHL" defaultvalue="Your Home Loan Application has been submitted." asstring="true"/>
+    <value id="discliamerText" defaultvalue="I/we confirm that we have read the"/>
+    <value id="completeApplication" defaultvalue="Personal Loan Application"/>
+    <value id="hdfcPLPage" defaultvalue="Get an HDFC Bank Personal Loan offer"/>
+    <value id="hdfcCLPage" defaultvalue="Get Car Loans in"/>
+    <value id="congratsPageWhatNext" defaultvalue="What Next"/>
+    <value id="signInText" defaultvalue="Sign In" asstring="true"/>
+    <value id="disclaimerTextIndusInd" defaultvalue="its representatives to call, email and/or SMS" asstring="true"/>
+    <value id="offerPageTextIndusInd" defaultvalue="Based on the information given by you, the offer shown below is the maximum amount and tenure that you are eligible for. You can adjust the sliders to choose the exact amount and tenure for which you wish to take the loan. The offer shown below is indicative" asstring="true"/>
+    <value id="disclaimerTextAxis" defaultvalue="I declare that the information I have provided above is accurate and complete to the best of my knowledge." asstring="true"/>
+    <value id="disclaimerTextAxisAppPage" defaultvalue="I authorize Axis Bank to increase my credit limit once within 6 months of Card issuance date basis. Axis Bank internal policies and other Terms and Conditions applicable." asstring="true"/>
+    <value id="eligibilityNotesCC" defaultvalue="Get Your Axis Bank Credit Card in 2 Easy Steps" asstring="true"/>
+    <value id="eligibilityNotes" defaultvalue="Fill form to get customized quote instantly"/>
+    <value id="requiredErrorMessageDesignation" defaultvalue="required designationComplete ac_input shadowOn error" asstring="true"/>
+    <value id="requiredErrorMessageMobile" defaultvalue="required error shadowOn" asstring="true"/>
+    <value id="zeroOfferMessage" defaultvalue="Thank you for your interest in IndusInd Bank Credit Card" asstring="true"/>
+    <value id="LoggedInAsText" defaultvalue="Logged in as:"/>
+    <value id="eligibilityNotes" defaultvalue="Fill form to get customized quote instantly"/>
+    <value id="elYearOfManufactureErrorMessage" defaultvalue="Uh-oh! Select closest year for an accurate quote." asstring="true"/>
+    <value id="previousButton" defaultvalue="prev"/>
+    <value id="nextButtonContent" defaultvalue="next"/>
+    <value id="elPropertyDetailsErrorMessage" defaultvalue="Uh-oh! Please pick any one option to proceed" asstring="true"/>
+    <value id="elHLCompanyErrorMessage" defaultvalue="Uh-oh! Please pick an employer" asstring="true"/>
+    <value id="elHLCityErrorMessage" defaultvalue="Hi Please enter a city to proceed" asstring="true"/>
+    <value id="elPropertyCityErrorMessage" defaultvalue="Uh-oh! Please select a city! We’ve got tons!" asstring="true"/>
+    <value id="elEmploymentTypeErrorMessage" defaultvalue="Uh-oh! Please pick any one option to proceed" asstring="true"/>
+    <value id="elCostOfPropertyErrorMessage" defaultvalue="Uh-oh! Please enter a value to proceed" asstring="true"/>
+    <value id="elHLSalaryErrorMessage" defaultvalue="Uh-oh! Please enter your gross fixed monthly income" asstring="true"/>
+    <value id="elHasCoApplicantErrorMessage" defaultvalue="Hi! Please select an option to proceed" asstring="true"/>
+    <value id="elPurposeErrorMessage" defaultvalue="Uh-oh! Please pick any one option to proceed" asstring="true"/>
+    <value id="bankStatementUploadSuccessMsg" defaultvalue="We have successfully fetched your statement!." asstring="true"/>
+    <value id="bankStatementContentProcessingMsg" defaultvalue="We're diving in to retrieve your  statement. It should make a dramatic appearance in a few minutes. Hang tight!" asstring="true"/>
+    <value id="creditScore" defaultvalue="Credit Score" asstring="true"/>
+    <value id="mfTellUsAboutYourSelfText" defaultvalue="Tell us about yourself and buy Mutual Funds." asstring="true"/>
+    <value id="mfKnowMoreUnderText" defaultvalue="Mutual Fund Types" asstring="true"/>
+    <value id="viewMutualFundsText" defaultvalue="View Mutual Funds" asstring="true"/>
+    <value id="termsAndConditionText" defaultvalue="I authorize BankBazaar to call/SMS/email me about its products. I have accepted the terms of the" asstring="true"/>
+    <value id="elFirstNameErrorMessage" defaultvalue="Uh-oh! Please enter your first name here" asstring="true"/>
+    <value id="elLastNameErrorMessage" defaultvalue="Uh-oh! Please enter your last name here" asstring="true"/>
+    <value id="elMobileNumberErrorMessage" defaultvalue="Kindly mention your mobile number" asstring="true"/>
+    <value id="elEmailIdErrorMessage" defaultvalue="Uh-oh! Please enter your email address here" asstring="true"/>
+    <value id="elOtpErrorMessage" defaultvalue="Please provide an input" asstring="true"/>
+    <value id="elHouseNumberErrorMessage" defaultvalue="Uh-oh! Please enter your first line of the address" asstring="true"/>
+    <value id="elStreetNumberErrorMessage" defaultvalue="Uh-oh! Please enter your second line of the address" asstring="true"/>
+    <value id="elPincodeNumberErrorMessage" defaultvalue="Kindly mention the pincode" asstring="true"/>
+    <value id="elPanNumberErrorMessage" defaultvalue="Kindly enter your pan number" asstring="true"/>
+    <value id="elDeclineErrorMessage" defaultvalue="Please accept to continue" asstring="true"/>
+    <value id="elCtCityErrorMessage" defaultvalue="Hi! Please select an option to proceed." asstring="true"/>
+    <value id="elInvalidPanNumberErrorMessage" defaultvalue="Enter valid PAN number" asstring="true"/>
+    <value id="elChallengeQuestionsErrorMessage" defaultvalue="Uh-oh! Please select all the values to continue" asstring="true"/>
+    <value id="preApprovedLabel" defaultvalue="PRE APPROVED" asstring="true"/>
+    <value id="paperlessApprovalLabel" defaultvalue="100% PAPERLESS APPROVAL" asstring="true"/>
+    <value id="mfDashboard" defaultvalue="MF Dashboard" asstring="true"/>
+    <value id="manageMfAccount" defaultvalue="Manage MF Account" asstring="true"/>
+    <value id="stateHelpText" defaultvalue="The wheels are in motion! You have successfully started your application process" asstring="true"/>
+    <value id="callUsTextInOfferHeader" defaultvalue="Call Us" asstring="true"/>
+    <value id="callUsNumberInOfferHeader" defaultvalue="+91 44 66515000" asstring="true"/>
+    <value id="lifeDisclaimerContent" defaultvalue="The Information provided is available on the IRDA website &amp; public domain" asstring="true"/>
+    <value id="planNameHeader" defaultvalue="card" asstring="true"/>
+    <value id="lumpSumPayoutHeader" defaultvalue="sum-assured" asstring="true"/>
+    <value id="monthlyPayoutHeader" defaultvalue="additional-coverage" asstring="true"/>
+    <value id="claimSettlementRatioHeader" defaultvalue="claim-settlement-ratio" asstring="true"/>
+    <value id="premiumHeader" defaultvalue="premium" asstring="true"/>
+    <value id="disabled" defaultvalue="disabled" asstring="true"/>
+    <value id="options" defaultvalue="options" asstring="true"/>
+    <value id="twiELSlide" defaultvalue="A couple of quick questions.."/>
+    <value id="termHeadVal" defaultvalue="What is Term Insurance?"/>
+    <value id="carHeadVal" defaultvalue="Why do you need Car Insurance?"/>
+    <value id="twHeadVal" defaultvalue="What is Two Wheeler Insurance?"/>
+    <value id="ctErrorPage" defaultvalue="Sorry, we couldn't find a match based on the details you gave us"/>
+    <value id="ctDisclaimerErrorMessage" defaultvalue="Please accept to proceed"/>
+
+
+    <value id="partnerPLGroupPAPQ" defaultvalue="none" type="fromvaluegroup" >
+        <group id="icicibank">
+            <groupvalue id="youWillLoveHeader" defaultvalue="What you'll love" asstring="true"/>
+            <groupvalue id="documentsHeader" defaultvalue="Documents" asstring="true"/>
+            <groupvalue id="youWillLoveContentBullet1" defaultvalue="No guarantor required" asstring="true"/>
+            <groupvalue id="youWillLoveContentBullet2" defaultvalue="Conditional pre-closure - only after 6 months" asstring="true"/>
+            <groupvalue id="documentsContentBullet1" defaultvalue="No ID &amp; address proof documents required" asstring="true"/>
+            <groupvalue id="documentsContentBullet2" defaultvalue="No income proof documents required" asstring="true"/>
+        </group>
+        <group id="indusindbankltd">
+            <groupvalue id="youWillLoveHeader" defaultvalue="What you'll love" asstring="true"/>
+            <groupvalue id="documentsHeader" defaultvalue="Documents" asstring="true"/>
+            <groupvalue id="youWillLoveContentBullet1" defaultvalue="Instant approval and express processing" asstring="true"/>
+            <groupvalue id="youWillLoveContentBullet2" defaultvalue="Has pre-closure option" asstring="true"/>
+            <groupvalue id="documentsContentBullet1" defaultvalue="Documents KYC-PAN, address, ID proof and one photograph" asstring="true"/>
+            <groupvalue id="documentsContentBullet2" defaultvalue="No income documents required" asstring="true"/>
+        </group>
+        <group id="hdfcbank">
+            <groupvalue id="youWillLoveHeader" defaultvalue="What you'll love" asstring="true"/>
+            <groupvalue id="documentsHeader" defaultvalue="Documents" asstring="true"/>
+            <groupvalue id="youWillLoveContentBullet1" defaultvalue="Instant approval" asstring="true"/>
+            <groupvalue id="youWillLoveContentBullet2" defaultvalue="Express processing" asstring="true"/>
+            <groupvalue id="youWillLoveContentBullet3" defaultvalue="Amazon offer is applicable only if all documents are submitted online." asstring="true"/>
+            <groupvalue id="documentsContentBullet1" defaultvalue="No income proof" asstring="true"/>
+            <groupvalue id="documentsContentBullet2" defaultvalue="No bank statement" asstring="true"/>
+        </group>
+    </value>
+
+    <value id="partnerCLGroupPAPQ" defaultvalue="none" type="fromvaluegroup" >
+        <group id="hdfcbank">
+            <groupvalue id="youWillLoveHeader" defaultvalue="What you'll love" asstring="true"/>
+            <groupvalue id="documentsHeader" defaultvalue="Documents" asstring="true"/>
+            <groupvalue id="youWillLoveContentBullet1" defaultvalue="Instant approval and Express processing.No guarantor required" asstring="true"/>
+            <groupvalue id="youWillLoveContentBullet2" defaultvalue="Part payment options available.Preclosure permitted after 1 year" asstring="true"/>
+            <groupvalue id="youWillLoveContentBullet3" defaultvalue="Loan tenure upto 7 years" asstring="true"/>
+            <groupvalue id="youWillLoveContentBullet4" defaultvalue="Offer is applicable when availed with Suraksha Cover" asstring="true"/>
+            <groupvalue id="documentsContentBullet1" defaultvalue="KYC-PAN, address, ID proof and one photograph" asstring="true"/>
+            <groupvalue id="documentsContentBullet2" defaultvalue="No income documents required" asstring="true"/>
+        </group>
+    </value>
+
+    <value id="partnerCCGroupPAPQ" defaultvalue="none" type="fromvaluegroup" >
+        <group id="hdfcbank">
+            <groupvalue id="youWillLoveHeader" defaultvalue="What you'll love" asstring="true"/>
+            <groupvalue id="documentsHeader" defaultvalue="Documents" asstring="true"/>
+            <groupvalue id="youWillLoveContentBullet1" defaultvalue="Instant approval and Express processing" asstring="true"/>
+            <groupvalue id="documentsContentBullet1" defaultvalue="One photograph" asstring="true"/>
+            <groupvalue id="documentsContentBullet2" defaultvalue="No income, ID &amp; address proof documents required" asstring="true"/>
+        </group>
+    </value>
+
+    <value id="partnerCLNonPAPQ" defaultvalue="none" type="fromvaluegroup" >
+        <group id="hdfcbank">
+            <groupvalue id="youWillLoveHeader" defaultvalue="What you'll love" asstring="true"/>
+            <groupvalue id="documentsHeader" defaultvalue="Documents" asstring="true"/>
+            <groupvalue id="youWillLoveContentBullet1" defaultvalue="No guarantor required" asstring="true"/>
+            <groupvalue id="youWillLoveContentBullet2" defaultvalue="Part payment option" asstring="true"/>
+            <groupvalue id="youWillLoveContentBullet3" defaultvalue="Offer is applicable when availed with Suraksha Cover" asstring="true"/>
+            <groupvalue id="documentsContentBullet1" defaultvalue="KYC-PAN, address &amp; ID proof" asstring="true"/>
+            <groupvalue id="documentsContentBullet2" defaultvalue="Income proof, bank statement and one photograph" asstring="true"/>
+        </group>
+    </value>
+
+    <value id="partnerPLNonPAPQ" defaultvalue="none" type="fromvaluegroup" >
+    <group id="icicibank">
+        <groupvalue id="youWillLoveHeader" defaultvalue="What you'll love" asstring="true"/>
+        <groupvalue id="documentsHeader" defaultvalue="Documents" asstring="true"/>
+        <groupvalue id="youWillLoveContentBullet1" defaultvalue="No guarantor required" asstring="true"/>
+        <groupvalue id="youWillLoveContentBullet2" defaultvalue="Conditional pre-closure - only after 6 months" asstring="true"/>
+        <groupvalue id="documentsContentBullet1" defaultvalue="KYC-PAN, address &amp; ID proof" asstring="true"/>
+        <groupvalue id="documentsContentBullet2" defaultvalue="Income proof, bank statement and one photograph" asstring="true"/>
+    </group>
+        <group id="indusindbankltd">
+            <groupvalue id="youWillLoveHeader" defaultvalue="What you'll love" asstring="true"/>
+            <groupvalue id="documentsHeader" defaultvalue="Documents" asstring="true"/>
+            <groupvalue id="youWillLoveContentBullet1" defaultvalue="No guarantor required" asstring="true"/>
+            <groupvalue id="youWillLoveContentBullet2" defaultvalue="Has pre-closure option" asstring="true"/>
+            <groupvalue id="documentsContentBullet1" defaultvalue="KYC-PAN, address &amp; ID proof" asstring="true"/>
+            <groupvalue id="documentsContentBullet2" defaultvalue="Income proof, bank statement and one photograph" asstring="true"/>
+        </group>
+    <group id="hdfcbank">
+        <groupvalue id="youWillLoveHeader" defaultvalue="What you'll love" asstring="true"/>
+        <groupvalue id="documentsHeader" defaultvalue="Documents" asstring="true"/>
+        <groupvalue id="youWillLoveContentBullet1" defaultvalue="No guarantor required" asstring="true"/>
+        <groupvalue id="youWillLoveContentBullet2" defaultvalue="Conditional pre-closure - only after 1 year" asstring="true"/>
+        <groupvalue id="youWillLoveContentBullet3" defaultvalue="Special Offer: Reduced interest rate of 11.39% for balance transfer of your Personal Loan to HDFC." asstring="true"/>
+        <groupvalue id="documentsContentBullet1" defaultvalue="KYC-PAN, address &amp; ID proof" asstring="true"/>
+        <groupvalue id="documentsContentBullet2" defaultvalue="Income proof, bank statement and one photograph" asstring="true"/>
+    </group>
+    </value>
+    <value id="partnerCCNonPAPQ" defaultvalue="none" type="fromvaluegroup" >
+        <group id="hdfcbank">
+            <groupvalue id="youWillLoveHeader" defaultvalue="What you'll love" asstring="true"/>
+            <groupvalue id="documentsHeader" defaultvalue="Documents" asstring="true"/>
+            <groupvalue id="youWillLoveContentBullet1" defaultvalue="Up to 15% discount at premium restaurants across the country" asstring="true"/>
+            <groupvalue id="documentsContentBullet1" defaultvalue="KYC-PAN, Address proof and ID Proof" asstring="true"/>
+            <groupvalue id="documentsContentBullet2" defaultvalue="One photograph, Salary slip/Form 16" asstring="true"/>
+        </group>
+    </value>
+    <value id="editYourOfferText" defaultvalue="Edit your Offer" asstring="true"/>
+    <value id="elMinimumSalaryErrorMessage" defaultvalue="Uh Oh! Net monthly salary should be > Rs.3,000" asstring="true"/>
+    <value id="coverageHighlightsOfferDetail" defaultvalue="coverage-highlights"/>
+    <value id="downloadsOfferDetail" defaultvalue="downloads"/>
+    <value id="salaryDepositedByCash" defaultvalue="I receive by Cash"/>
+    <value id="salaryDepositedByCheque" defaultvalue="I receive by Cheque"/>
+    <value id="salaryDepositedToOtherBank" defaultvalue="Other Bank"/>
+    <value id="googlePlayUrl" defaultvalue="https://play.google.com"/>
+    <value id="googleUrl" defaultvalue="google.com"/>
+    <value id="appStoreUrl" defaultvalue="https://itunes.apple.com"/>
+    <value id="cibilUrl" defaultvalue="bankbazaar.com/cibil.html"/>
+    <value id="taxUrl" defaultvalue="bankbazaar.com/tax.html"/>
+    <value id="ifscCodeUrl" defaultvalue="bankbazaar.com/ifsc-code.html"/>
+    <value id="emiCalculatorUrl" defaultvalue="bankbazaar.com/finance-tools/emi-calculator.html"/>
+    <value id="savingSchemesUrl" defaultvalue="bankbazaar.com/saving-schemes.html"/>
+    <value id="singaporeUrl" defaultvalue="bankbazaar.sg"/>
+    <value id="malaysiaUrl" defaultvalue="bbazaar.my"/>
+    <value id="philippinesUrl" defaultvalue="bankbazaar.ph"/>
+    <value id="uaeUrl" defaultvalue="bankbazaar.ae"/>
+    <value id="mexicoUrl" defaultvalue="bankbazaar.mx"/>
+    <value id="insuranceUrl" defaultvalue="bankbazaarinsurance.com/"/>
+    <value id="frillsHeading" defaultvalue="Frills"/>
+    <value id="documentsHeading" defaultvalue="Documents"/>
+    <value id="dcFeaturesHeading" defaultvalue="Debit Card Features"/>
+    <value id="feeDetailsHeading" defaultvalue="Fee Details"/>
+    <value id="youAlsoLoveHeading" defaultvalue="You'll also love"/>
+    <value id="downloadAppUrl" defaultvalue="bankbazaar.com/getapp.html"/>
+    <value id="careerOpenPositionText" defaultvalue="Open positions at BankBazaar"/>
+    <value id="careerHeaderContents" defaultvalue="You Create &amp; Develop the product , Grow and Expand the reach"/>
+    <value id="passwordRequiredMessage" defaultvalue="Please provide an input"/>
+    <value id="incorrectPasswordMessage" defaultvalue="Oops! Incorrect password!"/>
+    <value id="stateDropdownHeader" defaultvalue="Select State"/>
+    <value id="districtDropdownHeader" defaultvalue="Select District"/>
+    <value id="branchDropdownHeader" defaultvalue="Select Branch"/>
+    <value id="bankDropdownHeader" defaultvalue="Select Bank"/>
+    <value id="roboarmSuccessMsg" defaultvalue="Nice! You're almost done! Simply note down your quote id and then click the link below to proceed further"/>
+    <value id="roboarmFailureMsg" defaultvalue="We're sorry for the inconvenience"/>
+    <value id="sipPaymentSuccessText" defaultvalue="Your SIP has been registered"/>
+    <value id="sipPaymentUnSuccessMessage" defaultvalue="Your request for SIP was unsuccessful. Our representatives will be in touch with you to help you further."/>
+    <value id="sipPaymentSuccessMessageText" defaultvalue="Your request for SIP was successful. Our representatives will be in touch with you to help you further."/>
+    <value id="roboArmThankYouPageInvalidCredentialMsg" defaultvalue="Invalid credentials."/>
+    <value id="aboutUsContent" defaultvalue="BankBazaar is the world's first neutral online marketplace for instant"/>
+    <value id="aboutUsSectionTitle" defaultvalue="BOARD OF DIRECTORS"/>
+    <value id="indianSiteUrl" defaultvalue="bankbazaar.com"/>
+    <value id="tenureYear" defaultvalue="yr"/>
+    <value id="fdELSlideHeader" defaultvalue="Tell us about yourself &amp; we'll find the best Fixed Deposit offers for you."/>
+    <value id="elResidentStatusMessage" defaultvalue="Aww! C’mon! It’s easy! Pick one!" asstring="true"/>
+    <value id="elSeniorCitizenMessage" defaultvalue="It’s easy! Pick one!" asstring="true"/>
+    <value id="viewFreeOfferContent" defaultvalue="View FREE Offers" asstring="true"/>
+    <value id="seniorCitizenTitle" defaultvalue="Are you Senior Citizen?" asstring="true"/>
+    <value id="sessionExpiredError" defaultvalue="Your session has timed out"/>
+    <value id="reviewTitleFD" defaultvalue="random" type="fromvalueset" valueset="Fixed Deposit Customer Reviews"/>
+    <value id="HomePageTitle" defaultvalue="Compare and Apply for Loans"  asstring="true"/>
+    <value id="reviewPageTitlePL" defaultvalue="random" type="fromvalueset" valueset="Personal Loan Reviews"/>
+    <value id="interestRatePercentage" defaultvalue="%" asstring="true"/>
+    <value id="compareOnlyThreeOffers" defaultvalue="Sorry, you can compare only up to 3 Loan offers at a time"/>
+    <value id="aboutUsUrl" defaultvalue="bankbazaarinsurance.com/aboutus.html"/>
+    <value id="termsOfUsageUrl" defaultvalue="bankbazaarinsurance.com/termsOfUsage.html"/>
+    <value id="privacyPolicyUrl" defaultvalue="bankbazaarinsurance.com/privacypolicy.html"/>
+    <value id="disclaimerUrl" defaultvalue="bankbazaarinsurance.com/disclaimer.html"/>
+    <value id="contactUsUrl" defaultvalue="bankbazaarinsurance.com/contactus.html"/>
+    <value id="contactUsText" defaultvalue="CONTACT US"/>
+    <value id="moreMenuDisclaimer" defaultvalue="DISCLAIMER"/>
+    <value id="privacyAndSecurityPolicyText" defaultvalue="PRIVACY AND SECURITY POLICY"/>
+    <value id="termsOfUseText" defaultvalue="TERMS OF USE"/>
+    <value id="aboutUsText" defaultvalue="ABOUT US"/>
+    <value id="disclaimerText" defaultvalue="I HEREBY APPOINT BANKBAZAAR AS MY AUTHORISED REPRESENTATIVE TO RECEIVE MY CREDIT INFORMATION FROM EXPERIAN. I HEREBY IRREVOCABLY AND UNCONDITIONALLY CONSENT TO SUCH CREDIT INFORMATION BEING PROVIDED BY EXPERIAN AT MY REGISTERED EMAIL ID AND ALSO THROUGH MY BANKBAZAAR ACCOUNT AS PER MY INDEPENDENT REGISTRATION WITH BANKBAZAAR." asstring="true"/>
+    <value id="productGroup" defaultvalue="none" type="fromvaluegroup" >
+        <group id="mutualfund">
+            <groupvalue id="termsAndConditionText" defaultvalue="I authorize BankBazaar/AMC  to call/SMS/email me about its products." asstring="true"/>
+            <groupvalue id="chooseDifferentOfferMsgText" defaultvalue="SIP Investments through your Kotak Mahindra account is not possible. No worries! Choose a different one on the next page!" asstring="true"/>
+        </group>
+    <group id="homeloan">
+        <groupvalue id="joiningDateSlide" defaultvalue="Joining date" asstring="true"/>
+        <groupvalue id="elMobileCityErrorMessage" defaultvalue="Uh-oh!Please enter a city!We’ve got tons!" asstring="true"/>
+        <groupvalue id="elHasCoApplicantErrorMessage" defaultvalue="Hi! Please select an option to proceed" asstring="true"/>
+        <groupvalue id="elPropertyCityErrorMessage" defaultvalue="Uh-oh! Please select a city! We've got tons!" asstring="true"/>
+        <groupvalue id="elGenderErrorMessage" defaultvalue="Aww! C'mon! It's easy! Pick one!" asstring="true"/>
+        <groupvalue id="reviewPageTitle" defaultvalue="random" type="fromvalueset" valueset="Home Loan Reviews"/>
+    </group>
+        <group id="personalloan">
+            <groupvalue id="elGenderErrorMessage" defaultvalue="Aww! C'mon! It's easy! Pick one!" asstring="true"/>
+            <groupvalue id="reviewPageTitle" defaultvalue="random" type="fromvalueset" valueset="Personal Loan Reviews"/>
+            <groupvalue id="appSubmittedMailSubject" defaultvalue="application is successfully submitted" asstring="true"/>
+            <groupvalue id="appSubmittedMailContent" defaultvalue="Congratulations" asstring="true"/>
+            <groupvalue id="myGenderSlide" defaultvalue="Select gender to check your eligibility" asstring="true"/>
+        </group>
+        <group id="shorttermloan">
+            <groupvalue id="myGenderSlide" defaultvalue="Select gender to check your eligibility" asstring="true"/>
+        </group>
+        <group id="carloan">
+            <groupvalue id="reviewPageTitle" defaultvalue="random" type="fromvalueset" valueset="Car Loan Reviews"/>
+        </group>
+        <group id="creditcard">
+            <groupvalue id="reviewPageTitle" defaultvalue="random" type="fromvalueset" valueset="Credit Cards Reviews"/>
+            <groupvalue id="hungryForMoreText" defaultvalue="Know All About Credit Cards" asstring="true"/>
+            <groupvalue id="appSubmittedMailSubject" defaultvalue="application has been submitted" asstring="true"/>
+        </group>
+        <group id="lifeinsurance">
+            <groupvalue id="termInsuranceUrl" defaultvalue="bankbazaarinsurance.com/term-insurance.html" asstring="true"/>
+            <groupvalue id="endowmentUrl" defaultvalue="bankbazaarinsurance.com/life-insurance/endowment-policy.html" asstring="true"/>
+            <groupvalue id="ulipPlansUrl" defaultvalue="bankbazaarinsurance.com/life-insurance/ulip-plans.html" asstring="true"/>
+            <groupvalue id="moneyBackPolicyUrl" defaultvalue="bankbazaarinsurance.com/life-insurance/money-back-policy.html" asstring="true"/>
+            <groupvalue id="wholeinsPlanUrl" defaultvalue="bankbazaarinsurance.com/life-insurance/whole-life-insurance-plans.html" asstring="true"/>
+            <groupvalue id="pensionPlanUrl" defaultvalue="bankbazaarinsurance.com/life-insurance/pension-plans.html" asstring="true"/>
+            <groupvalue id="cancerInsuranceUrl" defaultvalue="bankbazaarinsurance.com/cancer-insurance.html" asstring="true"/>
+        </group>
+        <group id="healthinsurance">
+            <groupvalue id="floaterInsuranceUrl" defaultvalue="bankbazaarinsurance.com/family-floater-health-insurance.html" asstring="true"/>
+            <groupvalue id="citizenInsuranceUrl" defaultvalue="bankbazaarinsurance.com/senior-citizen-health-insurance.html" asstring="true"/>
+            <groupvalue id="illnessInsuranceUrl" defaultvalue="bankbazaarinsurance.com/critical-illness-health-insurance.html" asstring="true"/>
+            <groupvalue id="accidentInsuranceUrl" defaultvalue="bankbazaarinsurance.com/personal-accident-health-insurance.html" asstring="true"/>
+        </group>
+        <group id="motorinsurance">
+            <groupvalue id="twoWheelerInsUrl" defaultvalue="bankbazaarinsurance.com/insurance/two-wheeler-insurance.html" asstring="true"/>
+            <groupvalue id="carInsUrl" defaultvalue="bankbazaarinsurance.com/insurance/car-insurance.html" asstring="true"/>
+        </group>
+    </value>
+    <value id="invalidEmailEntry" defaultvalue="Uh-oh! Invalid entry. Please retry." asstring="true"/>
+    <value id="existingCreditCardCSlide" defaultvalue="What Credit Cards do you already have" asstring="true"/>
+    <value id="offerResetText" defaultvalue="No offers were available for Rs." asstring="true"/>
+    <value id="selfAttestedESign" defaultvalue="CUSTOMER_UPLOAD|CUSTOMER|SELF_ATTESTED" asstring="true"/>
+    <value id="pincodeSlideHeader" defaultvalue="What's your current residential address pincode?" asstring="true"/>
+    <value id="companyIdSlideHeader" defaultvalue="Have an Employee ID/Business Card?" asstring="true"/>
+    <value id="pfDeductionStatusSlideHeader" defaultvalue="Does your payslip includes PF deduction?" asstring="true"/>
+    <value id="incentiveStatusSlideHeader" defaultvalue="include any bonus/incentive?" asstring="true"/>
+    <value id="incomeProofContent" defaultvalue="Good job! Your Payslip was successfully uploaded" asstring="true"/>
+    <value id="incomeProofDocumentEmailSubject" defaultvalue="Your Payslip was uploaded successfully" asstring="true"/>
+    <value id="idProofDocumentSubject" defaultvalue="Your Passport was uploaded successfully" asstring="true"/>
+    <value id="addressProofDocumentSubject" defaultvalue="Your Aadhaar was uploaded successfully" asstring="true"/>
+    <value id="bankStatementSuccessMailSubject" defaultvalue="Your Bank Statement was uploaded successfully" asstring="true"/>
+
+    <value id="bankStatementFailureMailSubject" defaultvalue="Your Bank Statement could not be uploaded" asstring="true"/>
+    <value id="passwordResetMailSubject" defaultvalue="Password Reset Information" asstring="true"/>
+    <value id="welcomeMailSubject" defaultvalue="Welcome to BankBazaar.com" asstring="true"/>
+    <value id="welcomeMailContent" defaultvalue="Welcome" asstring="true"/>
+    <value id="passwordResetMailContent" defaultvalue="received a request to change your password" asstring="true"/>
+    <value id="offerSavedMailContent" defaultvalue="Would you like to pick up where you left off" asstring="true"/>
+    <value id="idProofDocumentContent" defaultvalue="Your Passport was successfully uploaded" asstring="true"/>
+    <value id="incomeProofContent" defaultvalue="Your Payslip was successfully uploaded" asstring="true"/>
+    <value id="rateAlertMailContent" defaultvalue="Best Rate" asstring="true"/>
+    <value id="bankStatementFailureMailContent" defaultvalue="Entered credentials are incorrect" asstring="true"/>
+    <value id="bankStatementSuccessMailContent" defaultvalue="Your Bank Statement was successfully uploaded" asstring="true"/>
+    <value id="addressProofDocumentContent" defaultvalue="Your Passport was successfully uploaded" asstring="true"/>
+    <value id="mailSource" defaultvalue="mandrillapp" asstring="true"/>
+    <value id="needHelp" defaultvalue="Need help?" asstring="true"/>
+    <value id="loanAmountText" defaultvalue="Personal loans for loan amount " asstring="true"/>
+    <value id="networkHospitalsUrl" defaultvalue="/health-insurance/network-hospitals-list.html"/>
+    <value id="revisedPremiumText" defaultvalue="Your premium amount has been revised by"/>
+    <value id="selectToCompareText" defaultvalue="Select To Compare" asstring="true"/>
+    <value id="premiumAmountToolTipText" defaultvalue="Total Premium Amount, inclusive of GST = [0-9]+ \(Net Premium [0-9]+ \+ Applicable Taxes [0-9]+\)" asstring="true"/>
+    <value id="coverageHighlightsTooltipText" defaultvalue="AVAILABLE- You're eligible to claim tax exemption for the premium amount paid on your policy" asstring="true"/>
+    <value id="ownDamagePremium" defaultvalue="Own Damage Premium" asstring="true"/>
+    <value id="totalLiabilityPremium" defaultvalue="Total Liability Premium" asstring="true"/>
+    <value id="totalDiscount" defaultvalue="Total Discount" asstring="true"/>
+    <value id="totalAddOnCoversAndTax" defaultvalue="Total Add-On Covers &amp; GST" asstring="true"/>
+    <value id="basicOD" defaultvalue="Basic OD" asstring="true"/>
+    <value id="electricalAccessories" defaultvalue="Electrical &amp; Non Electrical Accessories" asstring="true"/>
+    <value id="biFuelValue" defaultvalue="Bi-Fuel Value" asstring="true"/>
+    <value id="basicTP" defaultvalue="Basic TP (including third party property damage)" asstring="true"/>
+    <value id="paCover" defaultvalue="PA Cover for Owner Driver" asstring="true"/>
+    <value id="biFuelTP" defaultvalue="Bi-Fuel TP" asstring="true"/>
+    <value id="noClaimBonus" defaultvalue="No Claim Bonus" asstring="true"/>
+    <value id="loadDiscount" defaultvalue="Load/Discount" asstring="true"/>
+    <value id="voluntaryDeductible" defaultvalue="Voluntary Deductible" asstring="true"/>
+    <value id="antiTheftDiscount" defaultvalue="ARAI Approved Anti-theft Discount" asstring="true"/>
+    <value id="aaiMembershipDiscount" defaultvalue="AAI Membership Discount" asstring="true"/>
+    <value id="roadSideAssistance" defaultvalue="Road side Assistance" asstring="true"/>
+    <value id="zeroDeprecationCover" defaultvalue="Zero Depreciation Cover" asstring="true"/>
+    <value id="engineProtector" defaultvalue="Engine Protector" asstring="true"/>
+    <value id="phoneVerified" defaultvalue="PHONE VERIFIED" asstring="true"/>
+    <value id="inReview" defaultvalue="IN REVIEW" asstring="true"/>
+    <value id="docsVerified" defaultvalue="DOCS VERIFIED" asstring="true"/>
+    <value id="logged" defaultvalue="LOGGED" asstring="true"/>
+    <value id="approved" defaultvalue="APPROVED" asstring="true"/>
+    <value id="issued" defaultvalue="ISSUED" asstring="true"/>
+    <value id="disbursed" defaultvalue="DISBURSED" asstring="true"/>
+    <value id="phoneVerifiedText" defaultvalue="Yet to be phone verified." asstring="true"/>
+    <value id="phoneVerifiedTextActive" defaultvalue="Congrats! You have confirmed your application with our Support team." asstring="true"/>
+    <value id="inReviewText" defaultvalue="Yet to be processed." asstring="true"/>
+    <value id="inReviewTextActive" defaultvalue="Your application has been processed to the bank &amp; is being reviewed currently." asstring="true"/>
+    <value id="docsVerifiedText" defaultvalue="Yet to be docs verified." asstring="true"/>
+    <value id="loggedText" defaultvalue="Yet to be docs verified." asstring="true"/>
+    <value id="approvedText" defaultvalue="Yet to be approved." asstring="true"/>
+    <value id="issuedText" defaultvalue="Yet to be issued." asstring="true"/>
+    <value id="disbursedText" defaultvalue="Yet to be disbursed." asstring="true"/>
+    <value id="nonPartnerLeadErrorMsg" defaultvalue="Uh-oh! This number appears incorrect/invalid. Please re-enter your phone number." asstring="true"/>
+    <value id="appValidBankAccNumberErrorMessage" defaultvalue="Minimum should be 5" asstring="true"/>
+    <value id="emailLinkMailSubject" defaultvalue="Trying to apply for Mutual Fund?" asstring="true"/>
+    <value id="emailLinkMailContent" defaultvalue="Were you trying to apply for Mutual Fund?" asstring="true"/>
+    <value id="sbiMagnum" defaultvalue="SBI Equity Hybrid Fund-Reg(G)" asstring="true"/>
+    <value id="iciciPruValue" defaultvalue="ICICI Pru Balanced Advantage Fund(G)" asstring="true"/>
+    <value id="adityaBirla" defaultvalue="Aditya Birla SL Frontline Equity Fund(G)" asstring="true"/>
+    <value id="dspbrFocus" defaultvalue="DSP Equity Opportunities Fund-Reg(G)" asstring="true"/>
+    <value id="insuranceHelpLineNumber" defaultvalue="+91 44 66515000" asstring="true"/>
+    <value id="helpLineNumber" defaultvalue="044-66515000" asstring="true"/>
+    <value id="creditTrackerDisclaimer" defaultvalue="I hereby consent to appoint BankBazaar as my lawful authorised representative to obtain/ collect/ receive/ fetch my credit score and credit information report from Experian for and on my behalf." asstring="true"/>
+
+    <value id="aboutUsMetaDescription" defaultvalue="Bankbazaarinsurance.com is an online destination for insurance comparison for customers seeking life and general insurance products."  asstring="true"/>
+    <value id="aboutUsMetaKeyword" defaultvalue="about us, about bankbazaarinsurance.com"  asstring="true"/>
+    <value id="aboutUsPageTitle" defaultvalue="About Us - Bankbazaarinsurance.com"  asstring="true"/>
+    <value id="termsOfUsageMetaDescription" defaultvalue="Before you may use Bankbazaarinsurance.com, you must read all of the terms"  asstring="true"/>
+    <value id="termsOfUsageMetaKeyword" defaultvalue="terms of usage, terms and conditions of bankbazaarinsurance.com"  asstring="true"/>
+    <value id="termsOfUsagePageTitle" defaultvalue="Terms of Usage - Bankbazaarinsurance.com"  asstring="true"/>
+    <value id="privacyPolicyMetaDescription" defaultvalue="BankBazaar Insurance is strongly committed to protect the privacy and confidentiality of its customers"  asstring="true"/>
+    <value id="privacyPolicyKeyword" defaultvalue="privacy policy, bankbazaarinsurance.com privacy policy"  asstring="true"/>
+    <value id="privacyPolicyeTitle" defaultvalue="Privacy Policy - Bankbazaarinsurance.com"  asstring="true"/>
+    <value id="disclaimerMetaDescription" defaultvalue="Find disclaimer and other terms"  asstring="true"/>
+    <value id="disclaimerMetaKeyword" defaultvalue="disclaimer of bankbazaarinsurance.com"  asstring="true"/>
+    <value id="disclaimerPageTitle" defaultvalue="Disclaimer - Bankbazaarinsurance.com"  asstring="true"/>
+    <value id="contactusMetaDescription" defaultvalue="Contact Bankbazaarinsurance.com for your queries pertaining to life insurance and general insurance products."  asstring="true"/>
+    <value id="contactusMetaKeyword" defaultvalue="contact us, contact bankbazaarinsurance.com"  asstring="true"/>
+    <value id="contactusPageTitle" defaultvalue="Contact Us - Bankbazaarinsurance.com"  asstring="true"/>
+    <value id="verifyOwnershipFormMetaDescription" defaultvalue="Track the application status of your insurance policy at Bankbazaarinsurance.com."  asstring="true"/>
+    <value id="verifyOwnershipFormMetaKeyword" defaultvalue="track application, track insurance policy"  asstring="true"/>
+    <value id="verifyOwnershipFormPageTitle" defaultvalue="Track your Application Status - Bankbazaarinsurance.com"  asstring="true"/>
+    <value id="errorAadhaarNumberText" defaultvalue="Enter Valid Aadhaar Number"  asstring="true"/>
+    <value id="photographMailSubject" defaultvalue="Your Photograph was uploaded successfully" asstring="true"/>
+    <value id="SignatureMailSubject" defaultvalue="Your PAN was uploaded successfully" asstring="true"/>
+    <value id="photographMailContent" defaultvalue="Photograph was successfully uploaded" asstring="true"/>
+    <value id="SignatureMailContent" defaultvalue="PAN was successfully uploaded" asstring="true"/>
+    <value id="twoWheelerModelInfoText" defaultvalue="Your two-wheeler model has been selected. Click 'Continue' to proceed!" asstring="true"/>
+    <value id="twoWheelerVariantInfoText" defaultvalue="Verify your two-wheeler variant and continue." asstring="true"/>
+    <value id="twoWheelerNumberInfoText" defaultvalue="registration details have been updated based on your two-wheeler number. Continue to the next slide." asstring="true"/>
+    <value id="smsTemplate" defaultvalue="Congratulations on submitting your" asstring="true"/>
+    <value id="passwordResetMailSubject" defaultvalue="Password Reset Information" asstring="true"/>
+    <value id="passwordResetMailContent" defaultvalue="code for your password change" asstring="true"/>
+    <value id="passwordErrorInfo" defaultvalue="Uh-oh! Password should contain at least 8 characters" asstring="true"/>
+    <value id="changePasswordErrorInfo" defaultvalue="Uh-oh! Password should contain at least 8 characters" asstring="true"/>
+    <value id="existingPasswordErrorInfo" defaultvalue="Uh-oh! Password should not be same as current password" asstring="true"/>
+    <value id="preApprovedMsg" defaultvalue="Tip! Choose a Pre-approved offer for faster card approval" asstring="true"/>
+    <value id="congratsPageTextPart1" defaultvalue="You have successfully submitted your application." asstring="true"/>
+    <value id="congratsPageTextPart2" defaultvalue="You will receive a call within the next two hours regarding the next steps." asstring="true"/>
+    <value id="congratsPageTextPart3" defaultvalue="Click the link below to track your application or to check your Credit Score for FREE" asstring="true"/>
+</values>
