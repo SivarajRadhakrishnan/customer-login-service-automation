@@ -20,6 +20,9 @@
         </groups>
         <classes>
             <class name="com.bankbazaar.tatests.tests.servicestest.IN.CustomerLoginService.CustomerLoginServiceMPV1APIIntegrationTest" />
+            <class name="com.bankbazaar.tatests.tests.servicestest.IN.CustomerLoginService.CustomerLoginServiceInsV1APIIntegrationTest" />
+            <class name="com.bankbazaar.tatests.tests.servicestest.IN.CustomerLoginService.CustomerLoginServiceV2SigninAPIIntegrationTest" />
+            <class name="com.bankbazaar.tatests.tests.servicestest.IN.CustomerLoginService.CustomerLoginServiceV2SignupAPIIntegrationTest" />
         </classes>
     </test>
 
